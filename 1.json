@@ -893,6 +893,19 @@
       }
     },
     {
+      "key": "方舟动漫",
+      "name": "🌸┃方舟┃动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "jar": "https://ncstatic.clewm.net/rsrc/2026/0416/12/9c6f4eee384d4e9184f7a751c4d10b16.png;md5;690CD77AEB20B09A8DD8E01DCBE660B6",
+      "ext": {
+        "url": "https://www.cyfz.top",
+        "dataKey": "e72cdfd629e8895d",
+        "dataIv": "e72cdfd629e8895d"
+      }
+    },
+    {
       "key": "趣盘",
       "name": "趣盘 • 搜索",
       "type": 3,
@@ -991,19 +1004,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
-    },
-    {
-      "key": "方舟动漫",
-      "name": "🌸┃方舟┃动漫",
-      "type": 3,
-      "searchable": 1,
-      "api": "csp_AppGet",
-      "jar": "https://ncstatic.clewm.net/rsrc/2026/0416/12/9c6f4eee384d4e9184f7a751c4d10b16.png;md5;690CD77AEB20B09A8DD8E01DCBE660B6",
-      "ext": {
-        "url": "https://www.cyfz.top",
-        "dataKey": "e72cdfd629e8895d",
-        "dataIv": "e72cdfd629e8895d"
-      }
     },
     {
       "key": "天翼云盘",
@@ -1667,6 +1667,14 @@
       "quickSearch": 0
     },
     {
+      "key": "日诚影院",
+      "name": "日诚影院(聚)",
+      "type": 1,
+      "api": "http://tv.rcz168.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "魔都动漫",
       "name": "🌻魔都动漫🌻",
       "type": 1,
@@ -1730,14 +1738,6 @@
       "name": "蜗牛动漫(聚)",
       "type": 1,
       "api": "http://woniudm.woniu.cyou:20000/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "日诚影院",
-      "name": "日诚影院(聚)",
-      "type": 1,
-      "api": "http://tv.rcz168.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
     },
