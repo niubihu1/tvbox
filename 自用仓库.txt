@@ -78,6 +78,14 @@
             "url": "https://ztha.top/TVBox/thdjk.json"
         },
         {
+            "name": "🚀东篱线路 [在线]",
+            "url": "https://chigua.eu.org"
+        },
+        {
+            "name": "🚀™夜猫子源 [在线]",
+            "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymz"
+        },
+        {
             "name": "🚀™菜妮丝源 [在线]",
             "url": "https://tv.xn--yhqu5zs87a.top/"
         }
