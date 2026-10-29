@@ -833,16 +833,6 @@
       }
     },
     {
-      "key": "Manbo",
-      "name": "🕺┆曼波┆动漫",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "AUzH3yIWvgQkyhQw17uONTsfuN8PupZ/LJdr5C31Y/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM="
-    },
-    {
       "key": "csp_影業",
       "name": "酒吧┃影视",
       "type": 3,
@@ -869,6 +859,16 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png"
+    },
+    {
+      "key": "Manbo",
+      "name": "🕺┆曼波┆动漫",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "AUzH3yIWvgQkyhQw17uONTsfuN8PupZ/LJdr5C31Y/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM="
     },
     {
       "key": "半日99",
@@ -1042,14 +1042,23 @@
       "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png"
     },
     {
-      "key": "鬼鬼",
-      "name": "鬼鬼 • 搜索",
+      "key": "YunDuo",
+      "name": "🦢大鹅┃1080P",
       "type": 3,
-      "api": "csp_GuiGui",
+      "api": "csp_YunDuo",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
+        "aid": "com.web.player",
+        "sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
+        "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
+        "sign": "ddtvf65f3a83d6d9ad6f",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      }
     },
     {
       "key": "本地",
