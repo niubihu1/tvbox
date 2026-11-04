@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/easy999/test1/raw/main/easy11.02.png;md5;fb6661c1301c2c1522f6a8342c4cafbe",
+  "spider": "https://gitee.com/easy999/test1/raw/main/easy11.03.png;md5;e8dc6bb0f6a1f7a987885fac6173a235",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/logo.png",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -562,20 +562,6 @@
       "changeable": 1
     },
     {
-      "key": "耐看",
-      "name": "👑耐看点播👑",
-      "type": 3,
-      "viewType": 2,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
-        "分类url": "https://www.nkvod.us/show/{cateId}--------{catePg}---{year}.html"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_秋霞电影",
       "name": "👑秋霞电影👑",
       "type": 3,
@@ -711,6 +697,15 @@
       "changeable": 1
     },
     {
+      "key": "稀饭",
+      "name": "稀饭 | 动漫",
+      "type": 3,
+      "api": "csp_AnimeXifan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "YunDuo",
       "name": "🦢大鹅┃1080P",
       "type": 3,
@@ -729,6 +724,16 @@
         "danmu_api": "https://dm.211.li/nonay"
       },
       "changeable": 1
+    },
+    {
+      "key": "csp_TSaowuAmns",
+      "name": "雷蒙影视 | 📖听听(SP)",
+      "type": 3,
+      "api": "csp_TSaowuAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
     },
     {
       "key": "csp_影業",
@@ -750,16 +755,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "csp_TSaowuAmns",
-      "name": "雷蒙影视 | 📖听听(SP)",
-      "type": 3,
-      "api": "csp_TSaowuAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
     },
     {
       "key": "半日99",
@@ -1525,6 +1520,15 @@
       "changeable": 1
     },
     {
+      "key": "快车资源",
+      "name": "快车资源",
+      "type": 1,
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "zy360",
       "name": "360资源",
       "type": 1,
@@ -1547,15 +1551,6 @@
       "changeable": 1
     },
     {
-      "key": "快车资源",
-      "name": "快车资源",
-      "type": 1,
-      "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "日诚影院",
       "name": "日诚影院(聚)",
       "type": 1,
@@ -1569,15 +1564,6 @@
       "name": "🌻魔都动漫🌻",
       "type": 1,
       "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "巨量",
-      "name": "巨量 • 影视",
-      "type": 1,
-      "api": "https://api.juliang.live/api/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -1696,6 +1682,15 @@
         "欧美剧",
         "香港剧"
       ],
+      "changeable": 1
+    },
+    {
+      "key": "巨量",
+      "name": "巨量 • 影视",
+      "type": 1,
+      "api": "https://api.juliang.live/api/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
