@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/easy999/test1/raw/main/easy11.04.png;md5;7ad35e8f7a1256e9fed9b9a092ed8af9",
+  "spider": "https://gitee.com/easy999/test1/raw/main/easy11.05.png;md5;c07ab2794d358d27d4a4e842712d3c16",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/logo.png",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -485,6 +485,12 @@
       "name": "荐片 | 磁力",
       "api": "csp_JianPian",
       "type": 3,
+      "ext": {
+        "site": [
+          "https://www.whhyn.com",
+          "https://www.zxfmj.com"
+        ]
+      },
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -705,40 +711,6 @@
       "changeable": 1
     },
     {
-      "key": "YunDuo",
-      "name": "🦢大鹅┃1080P",
-      "type": 3,
-      "api": "csp_YunDuo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://323433ssdfd.top",
-        "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
-        "aid": "com.web.player",
-        "sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
-        "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
-        "sign": "ddtvf65f3a83d6d9ad6f",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
-      },
-      "changeable": 1
-    },
-    {
-      "key": "耐看",
-      "name": "👑耐看点播👑",
-      "type": 3,
-      "viewType": 2,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
-        "分类url": "https://www.nkvod.us/show/{cateId}--------{catePg}---{year}.html"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_影業",
       "name": "酒吧┃影视",
       "type": 3,
@@ -768,6 +740,26 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
+    },
+    {
+      "key": "YunDuo",
+      "name": "🦢大鹅┃1080P",
+      "type": 3,
+      "api": "csp_YunDuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
+        "aid": "com.web.player",
+        "sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
+        "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
+        "sign": "ddtvf65f3a83d6d9ad6f",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      },
+      "changeable": 1
     },
     {
       "key": "半日99",
@@ -911,6 +903,21 @@
       "timeout": 60
     },
     {
+      "key": "方舟动漫",
+      "name": "🌸┃方舟┃动漫",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "jar": "https://ncstatic.clewm.net/rsrc/2026/0416/12/9c6f4eee384d4e9184f7a751c4d10b16.png;md5;690CD77AEB20B09A8DD8E01DCBE660B6",
+      "ext": {
+        "url": "https://www.cyfz.top",
+        "dataKey": "e72cdfd629e8895d",
+        "dataIv": "e72cdfd629e8895d"
+      },
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "csp_GuaziLiveAmns",
       "name": "雷蒙影视 | 🏆体育(SP)",
       "type": 3,
@@ -933,21 +940,6 @@
       "changeable": 1
     },
     {
-      "key": "方舟动漫",
-      "name": "🌸┃方舟┃动漫",
-      "type": 3,
-      "searchable": 1,
-      "api": "csp_AppGet",
-      "jar": "https://ncstatic.clewm.net/rsrc/2026/0416/12/9c6f4eee384d4e9184f7a751c4d10b16.png;md5;690CD77AEB20B09A8DD8E01DCBE660B6",
-      "ext": {
-        "url": "https://www.cyfz.top",
-        "dataKey": "e72cdfd629e8895d",
-        "dataIv": "e72cdfd629e8895d"
-      },
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "name": "🐱嗷嗚┃动漫",
       "key": "DMcyc",
       "type": 3,
@@ -956,6 +948,16 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
+    },
+    {
+      "key": "DODOTV",
+      "name": "DODOTV | 无字幕韩剧",
+      "type": 3,
+      "api": "csp_AppDODO",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
     },
     {
       "key": "本地",

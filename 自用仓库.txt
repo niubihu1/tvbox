@@ -86,8 +86,8 @@
             "url": "https://tv.xn--yhqu5zs87a.top"
         },
         {
-            "name": "🚀™夜猫子源 [在线]",
-            "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymz"
+            "name": "🚀fish2018_tvbox_源 [在线]",
+            "url": "https://www.iyouhun.com/tv/0"
         }
     ]
 }
