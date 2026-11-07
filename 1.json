@@ -225,13 +225,13 @@
       "ext": "https://www.xb6v.com/"
     },
     {
-      "key": "枫叶",
-      "name": "枫叶 • 秒播",
+      "key": "枫叶影视",
+      "name": "枫叶 | 影视",
       "type": 3,
-      "api": "csp_AppFENGYE",
+      "api": "csp_FengYe",
+      "ext": "https://www.vip1949.com/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "changeable": 1
     },
     {
@@ -711,6 +711,26 @@
       "changeable": 1
     },
     {
+      "key": "YunDuo",
+      "name": "🦢大鹅┃1080P",
+      "type": 3,
+      "api": "csp_YunDuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
+        "aid": "com.web.player",
+        "sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
+        "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
+        "sign": "ddtvf65f3a83d6d9ad6f",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      },
+      "changeable": 1
+    },
+    {
       "key": "csp_影業",
       "name": "酒吧┃影视",
       "type": 3,
@@ -740,26 +760,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
-    },
-    {
-      "key": "YunDuo",
-      "name": "🦢大鹅┃1080P",
-      "type": 3,
-      "api": "csp_YunDuo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://323433ssdfd.top",
-        "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
-        "aid": "com.web.player",
-        "sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
-        "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
-        "sign": "ddtvf65f3a83d6d9ad6f",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
-      },
-      "changeable": 1
     },
     {
       "key": "半日99",
@@ -837,6 +837,16 @@
       "ext": "https://easy888.dpdns.org/lib/B%E7%AB%99.js",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "DODOTV",
+      "name": "DODOTV | 无字幕韩剧",
+      "type": 3,
+      "api": "csp_AppDODO",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "changeable": 1
     },
     {
@@ -929,6 +939,16 @@
       "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
     },
     {
+      "key": "枫叶",
+      "name": "枫叶 • 秒播",
+      "type": 3,
+      "api": "csp_AppFENGYE",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
       "key": "觅盘",
       "name": "觅盘 • 搜索",
       "type": 3,
@@ -937,26 +957,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "timeout": 60,
-      "changeable": 1
-    },
-    {
-      "name": "🐱嗷嗚┃动漫",
-      "key": "DMcyc",
-      "type": 3,
-      "api": "csp_DMcycAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
-    },
-    {
-      "key": "DODOTV",
-      "name": "DODOTV | 无字幕韩剧",
-      "type": 3,
-      "api": "csp_AppDODO",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "changeable": 1
     },
     {
