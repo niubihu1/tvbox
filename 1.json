@@ -451,12 +451,13 @@
     },
     {
       "key": "可可影视",
-      "name": "可可 | 影视",
+      "name": "可可｜影视",
       "type": 3,
-      "api": "https://easy888.dpdns.org/py/%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.py",
+      "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": "https://gitee.com/dmjuntop/four-d/raw/master/movie/json/KKYS.json",
       "changeable": 1
     },
     {
@@ -731,6 +732,20 @@
       "changeable": 1
     },
     {
+      "key": "耐看",
+      "name": "👑耐看点播👑",
+      "type": 3,
+      "viewType": 2,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
+        "分类url": "https://www.nkvod.us/show/{cateId}--------{catePg}---{year}.html"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "csp_影業",
       "name": "酒吧┃影视",
       "type": 3,
@@ -780,100 +795,10 @@
       "changeable": 1
     },
     {
-      "key": "央视PY",
-      "name": "央视 | 栏目",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/%E5%A4%AE%E8%A7%86.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "腾讯视频",
-      "name": "📺️腾讯 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E8%85%BE%E8%AE%AF.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "爱奇艺视频",
-      "name": "📺️爱奇艺 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E7%88%B1%E5%A5%87%E8%89%BA.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "优酷视频",
-      "name": "📺️优酷 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E4%BC%98%E9%85%B7.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "芒果视频",
-      "name": "📺️芒果 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E8%8A%92%E6%9E%9C.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "哔哩哔哩",
-      "name": "📺️B站 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/B%E7%AB%99.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "DODOTV",
       "name": "DODOTV | 无字幕韩剧",
       "type": 3,
       "api": "csp_AppDODO",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "新影视",
-      "name": "New | 影视",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/%E6%96%B0%E5%BD%B1%E8%A7%86.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "VIP兔",
-      "name": "VIP兔 | 影视",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/VIP%E5%85%94.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "FreeOK",
-      "name": "FreeOK | 影视",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/FreeOK.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -957,6 +882,91 @@
       "quickSearch": 1,
       "filterable": 0,
       "timeout": 60,
+      "changeable": 1
+    },
+    {
+      "key": "酷乐",
+      "name": "酷乐 • 搜索",
+      "type": 3,
+      "api": "csp_KuLe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "changeable": 1
+    },
+    {
+      "key": "百酷",
+      "name": "百酷 • 搜索",
+      "type": 3,
+      "api": "csp_Baiku",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "changeable": 1
+    },
+    {
+      "key": "csp_appysv2_小鸟动漫",
+      "name": "小鸟动漫(萝卜)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://xydm.baicai.buzz/mogai_api.php/v1.vod",
+      "changeable": 1
+    },
+    {
+      "key": "csp_XYQHiker_age动漫",
+      "name": "☄️｜AGE｜动漫",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/age%E5%8A%A8%E6%BC%AB.json",
+      "changeable": 1
+    },
+    {
+      "key": "应该可以",
+      "name": "💝分享4|K",
+      "type": 3,
+      "api": "https://fastlink.cokey.xyz/f/AAvgsm/4K%E5%BD%B1%E8%A7%86.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "直播转点播",
+      "name": "📺︎┃电视┃直播",
+      "type": 3,
+      "api": "https://jihulab.com/dimaston1/4k/-/raw/main/js/zbzdb.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/js/zb.json",
+      "changeable": 1
+    },
+    {
+      "key": "js_mogu",
+      "name": "🍄┃蘑菇┃影视",
+      "type": 3,
+      "api": "https://jihulab.com/dimaston1/4k/-/raw/main/libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/js/%E8%98%91%E8%8F%87.js",
+      "changeable": 1
+    },
+    {
+      "key": "js_v2-yj",
+      "name": "🌙┃专享┃2K",
+      "type": 3,
+      "api": "https://jihulab.com/dimaston1/4k/-/raw/main/libs/drpy2.min.js",
+      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/js/yyttzx.js",
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
