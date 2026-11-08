@@ -451,13 +451,12 @@
     },
     {
       "key": "可可影视",
-      "name": "可可｜影视",
+      "name": "可可 | 影视",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://easy888.dpdns.org/py/%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/dmjuntop/four-d/raw/master/movie/json/KKYS.json",
       "changeable": 1
     },
     {
@@ -479,21 +478,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://cz01.vip",
-      "changeable": 1
-    },
-    {
-      "key": "荐片",
-      "name": "荐片 | 磁力",
-      "api": "csp_JianPian",
-      "type": 3,
-      "ext": {
-        "site": [
-          "https://www.whhyn.com",
-          "https://www.zxfmj.com"
-        ]
-      },
-      "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -661,22 +645,6 @@
       "changeable": 1
     },
     {
-      "key": "面包影视",
-      "name": "面包 | 影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
-        "简介": "简介：&&"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "天翼云盘",
       "name": "天翼 | 云盘",
       "type": 3,
@@ -732,20 +700,6 @@
       "changeable": 1
     },
     {
-      "key": "耐看",
-      "name": "👑耐看点播👑",
-      "type": 3,
-      "viewType": 2,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
-        "分类url": "https://www.nkvod.us/show/{cateId}--------{catePg}---{year}.html"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_影業",
       "name": "酒吧┃影视",
       "type": 3,
@@ -777,18 +731,16 @@
       "jar": "https://file.icve.com.cn/file_doc/868/18/D93049BA6615EAB01B69A52FF03C02C9.png"
     },
     {
-      "key": "半日99",
-      "name": "半日秒播",
+      "key": "面包影视",
+      "name": "面包 | 影视",
       "type": 3,
-      "api": "csp_App99",
+      "api": "csp_XBPQ",
       "ext": {
-        "host": "http://103.217.190.91:19987/app/bn",
-        "appkey": "24d625a8a29b4700a1a294c6f3b29e2c",
-        "versionName": "3.5.8",
-        "name": "半日闲",
-        "package": "com.yf.lelian",
-        "buildNumber": "2001",
-        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
+        "简介": "简介：&&"
       },
       "searchable": 1,
       "quickSearch": 1,
@@ -826,6 +778,24 @@
         "type": "rect",
         "ratio": 1.618
       }
+    },
+    {
+      "key": "半日99",
+      "name": "半日秒播",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": {
+        "host": "http://103.217.190.91:19987/app/bn",
+        "appkey": "24d625a8a29b4700a1a294c6f3b29e2c",
+        "versionName": "3.5.8",
+        "name": "半日闲",
+        "package": "com.yf.lelian",
+        "buildNumber": "2001",
+        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "趣盘",
@@ -967,6 +937,26 @@
       "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/js/yyttzx.js",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "央视PY",
+      "name": "央视 | 栏目",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/py/%E5%A4%AE%E8%A7%86.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "新影视",
+      "name": "New | 影视",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/py/%E6%96%B0%E5%BD%B1%E8%A7%86.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "changeable": 1
     },
     {
