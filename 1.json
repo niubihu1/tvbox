@@ -603,17 +603,23 @@
       "changeable": 1
     },
     {
-      "key": "耐看",
-      "name": "👑耐看点播👑",
+      "key": "YunDuo",
+      "name": "🦢大鹅┃1080P",
       "type": 3,
-      "viewType": 2,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
-        "分类url": "https://www.nkvod.us/show/{cateId}--------{catePg}---{year}.html"
-      },
+      "api": "csp_YunDuo",
       "searchable": 1,
       "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
+        "aid": "com.web.player",
+        "sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
+        "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
+        "sign": "ddtvf65f3a83d6d9ad6f",
+        "danmu": true,
+        "danmu_api": "https://dm.211.li/nonay"
+      },
       "changeable": 1
     },
     {
@@ -644,26 +650,6 @@
       },
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "YunDuo",
-      "name": "🦢大鹅┃1080P",
-      "type": 3,
-      "api": "csp_YunDuo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://323433ssdfd.top",
-        "finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2",
-        "aid": "com.web.player",
-        "sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1",
-        "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
-        "sign": "ddtvf65f3a83d6d9ad6f",
-        "danmu": true,
-        "danmu_api": "https://dm.211.li/nonay"
-      },
       "changeable": 1
     },
     {
@@ -973,6 +959,19 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "光鸭云盘",
+      "name": "光鸭 • 云盘",
+      "type": 3,
+      "api": "csp_PanGuangya",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      }
     },
     {
       "key": "本地",
@@ -1580,15 +1579,6 @@
       "changeable": 1
     },
     {
-      "key": "魔都动漫",
-      "name": "🌻魔都动漫🌻",
-      "type": 1,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "影探",
       "name": "影探",
       "type": 4,
@@ -1652,28 +1642,6 @@
       "changeable": 1
     },
     {
-      "key": "mdzy",
-      "name": "魔都资源",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "短剧",
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧"
-      ],
-      "changeable": 1
-    },
-    {
       "key": "天空资源",
       "name": "天空资源(切)",
       "type": 1,
@@ -1709,6 +1677,29 @@
       "name": "巨量 • 影视",
       "type": 1,
       "api": "https://api.juliang.live/api/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "无尽资源网",
+      "name": "无尽｜采集",
+      "type": 1,
+      "api": "https://api.wujinapi.net/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧"
+      ]
+    },
+    {
+      "key": "TV无尽",
+      "name": "🌻TV无尽🌻",
+      "type": 1,
+      "api": "https://api.wujinapi.cc/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
