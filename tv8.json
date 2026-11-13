@@ -53,7 +53,7 @@
       "sourceUrl": "https://12586.kstore.space/123.json"
     },
     {
-      "sourceName": "🚀点播-长期多仓接口 [126ms]",
+      "sourceName": "🚀点播-长期多仓接口 [184ms]",
       "sourceUrl": "https://www.ls660.com/TV/tvbox.json"
     },
     {
@@ -61,8 +61,8 @@
       "sourceUrl": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
     },
     {
-      "sourceName": "🚀点播-临时多仓接口 [284ms]",
-      "sourceUrl": "https://1812012130.cdn.123clouddisk.com/1812012130/30824909"
+      "sourceName": "🚀观影仓库 [357ms]",
+      "sourceUrl": "http://ztha.top/TVBox/GYCK.json"
     }
   ],
   "urls": [
@@ -119,7 +119,7 @@
       "url": "https://12586.kstore.space/123.json"
     },
     {
-      "name": "🚀点播-长期多仓接口 [126ms]",
+      "name": "🚀点播-长期多仓接口 [184ms]",
       "url": "https://www.ls660.com/TV/tvbox.json"
     },
     {
@@ -127,8 +127,8 @@
       "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
     },
     {
-      "name": "🚀点播-临时多仓接口 [284ms]",
-      "url": "https://1812012130.cdn.123clouddisk.com/1812012130/30824909"
+      "name": "🚀观影仓库 [357ms]",
+      "url": "http://ztha.top/TVBox/GYCK.json"
     }
   ]
 }
