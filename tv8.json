@@ -53,15 +53,15 @@
       "sourceUrl": "https://12586.kstore.space/123.json"
     },
     {
-      "sourceName": "🚀推荐单仓链接 [779ms]",
+      "sourceName": "🚀推荐单仓链接 [750ms]",
       "sourceUrl": "http://z.qiqiv.cn/123"
     },
     {
-      "sourceName": "🚀点播-长期多仓接口 [115ms]",
-      "sourceUrl": "https://www.ls660.com/TV/tvbox.json"
+      "sourceName": "🚀游魂多仓（备） [42ms]",
+      "sourceUrl": "https://www.iyouhun.com/tv/yh"
     },
     {
-      "sourceName": "🚀盒多仓接口 [164ms]",
+      "sourceName": "🚀盒多仓接口 [172ms]",
       "sourceUrl": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
     }
   ],
@@ -119,15 +119,15 @@
       "url": "https://12586.kstore.space/123.json"
     },
     {
-      "name": "🚀推荐单仓链接 [779ms]",
+      "name": "🚀推荐单仓链接 [750ms]",
       "url": "http://z.qiqiv.cn/123"
     },
     {
-      "name": "🚀点播-长期多仓接口 [115ms]",
-      "url": "https://www.ls660.com/TV/tvbox.json"
+      "name": "🚀游魂多仓（备） [42ms]",
+      "url": "https://www.iyouhun.com/tv/yh"
     },
     {
-      "name": "🚀盒多仓接口 [164ms]",
+      "name": "🚀盒多仓接口 [172ms]",
       "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
     }
   ]

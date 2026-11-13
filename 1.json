@@ -678,6 +678,16 @@
       "changeable": 1
     },
     {
+      "key": "枫叶影视",
+      "name": "枫叶 | 影视",
+      "type": 3,
+      "api": "csp_FengYe",
+      "ext": "https://www.vip1949.com/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "爱看机器人",
       "name": "爱看 | 影视",
       "type": 3,
@@ -803,14 +813,13 @@
       "ext": "http://xhztv.top/xhz/sub/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
     },
     {
-      "key": "枫叶影视",
-      "name": "枫叶┃零七",
-      "type": 3,
-      "api": "csp_FengYe",
-      "searchable": 1,
+      "key": "枫叶影院PY",
+      "name": "枫叶影院",
+      "api": "https://gitee.com/kevin0973/lc/raw/master/lib/%E6%9E%AB%E5%8F%B6%E5%BD%B1%E9%99%A2.py",
+      "filterable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://www.vip1949.com/",
+      "searchable": 1,
+      "type": 3,
       "changeable": 1
     },
     {
@@ -1031,14 +1040,36 @@
       "changeable": 1
     },
     {
-      "key": "🔱｜专线⑭ 🏅",
-      "name": "🔱｜专线⑭ 🏅",
+      "key": "csp_slgq",
+      "name": "👑石榴蓝光👑",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjzy/hjzy10.json",
+      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/%E7%9F%B3%E6%A6%B4%E9%AB%98%E6%B8%85.json",
+      "changeable": 1
+    },
+    {
+      "key": "qiyue",
+      "name": "👑七月蓝光👑",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/%E4%B8%83%E6%9C%88%E5%BD%B1%E8%A7%86.json",
+      "changeable": 1
+    },
+    {
+      "key": "csp_菲克",
+      "name": "👑菲克蓝光👑",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/%E8%8F%B2%E5%85%8B.json",
       "changeable": 1
     },
     {
@@ -1210,39 +1241,6 @@
       "changeable": 1
     },
     {
-      "key": "csp_slgq",
-      "name": "👑石榴蓝光👑",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/%E7%9F%B3%E6%A6%B4%E9%AB%98%E6%B8%85.json",
-      "changeable": 1
-    },
-    {
-      "key": "qiyue",
-      "name": "👑七月蓝光👑",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/%E4%B8%83%E6%9C%88%E5%BD%B1%E8%A7%86.json",
-      "changeable": 1
-    },
-    {
-      "key": "csp_菲克",
-      "name": "👑菲克蓝光👑",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/%E8%8F%B2%E5%85%8B.json",
-      "changeable": 1
-    },
-    {
       "key": "本地",
       "name": "本地视频 | 10.8",
       "type": 3,
@@ -1333,9 +1331,9 @@
       "changeable": 1,
       "ext": {
         "site": [
+          "https://www.mmpanpan.site",
           "http://www.tvpanpan.site",
           "http://tvpanpan.site",
-          "https://www.mmpanpan.site",
           "https://www.fmcf.fun"
         ]
       },
@@ -2020,6 +2018,16 @@
       "changeable": 1
     },
     {
+      "key": "猫眼资源",
+      "name": "猫眼资源",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "搜索url": "https://www.maoyanzy.com/index.php/vod/search.html?wd={wd}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "极速资源",
       "name": "影视 • 极速[直连]",
       "type": 1,
@@ -2088,23 +2096,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "iqiyizyapi.com",
-      "name": "🌻爱奇艺🌻",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "original_api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G973F) AppleWebKit/537.36",
-        "Accept": "application/json, */*",
-        "Connection": "close"
-      },
-      "ext": "https://iqiyizyapi.com",
       "changeable": 1
     },
     {
