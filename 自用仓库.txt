@@ -1,16 +1,16 @@
-// 此多仓接口列表由 GitHub Actions 自动化保活巡检引擎生成 [云端保活版]
+// 此多仓接口列表由 auto_engine 本地家庭宽带巡检引擎实时测速生成 [家庭测速版]
 {
     "urls": [
         {
-            "name": "🐯牛虎 ┃ 豆瓣热播 [220ms]",
+            "name": "🐯牛虎 ┃ 豆瓣热播 [210ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 官方主力 [在线]",
+            "name": "🐼肥猫线路 ┃ 官方主力 [450ms]",
             "url": "http://xn--z7x900a.net/tv"
         },
         {
-            "name": "🍚饭太硬线 ┃ 旗舰片单 [471ms]",
+            "name": "🍚饭太硬线 ┃ 旗舰片单 [456ms]",
             "url": "http://www.xn--sss604efuw.cc/tv"
         },
         {
@@ -50,15 +50,15 @@
             "url": "http://xhztv.top/dc/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 备用镜像 [162ms]",
+            "name": "🐼肥猫线路 ┃ 备用镜像 [237ms]",
             "url": "http://xn--z7x900a.live/"
         },
         {
-            "name": "🍚饭太硬线 ┃ 备用镜像 [258ms]",
+            "name": "🍚饭太硬线 ┃ 备用镜像 [130ms]",
             "url": "http://www.xn--sss604efuw.net/tv"
         },
         {
-            "name": "🚀周J线路 ┃ 备用维护 [553ms]",
+            "name": "🚀周J线路 ┃ 备用维护 [210ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box"
         },
         {
