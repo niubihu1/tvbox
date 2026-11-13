@@ -4,7 +4,7 @@
 ### ⚡ 豆瓣开屏 · 扫码直达 ｜ 🍿 75席免登秒播 ｜ 💎 4K原画杜比 ｜ 💬 实时弹幕 ｜ 🛡️ 10项铁律门禁
 
 [![接口状态](https://img.shields.io/badge/%E6%8E%A5%E5%8F%A3%E7%8A%B6%E6%80%81-%E9%AB%98%E9%80%9F%E5%AD%98%E6%B4%BB-brightgreen?style=for-the-badge&logo=statuspage)](https://github.com/niubihu1/tvbox)
-[![精选站源](https://img.shields.io/badge/%E7%B2%BE%E9%80%89%E7%AB%99%E6%BA%90-133%20%E9%BB%84%E9%87%91%E9%85%8D%E6%AF%94-blue?style=for-the-badge&logo=speedtest)](https://github.com/niubihu1/tvbox)
+[![精选站源](https://img.shields.io/badge/%E7%B2%BE%E9%80%89%E7%AB%99%E6%BA%90-135%20%E9%BB%84%E9%87%91%E9%85%8D%E6%AF%94-blue?style=for-the-badge&logo=speedtest)](https://github.com/niubihu1/tvbox)
 [![秒播占比](https://img.shields.io/badge/%E5%85%8D%E7%99%BB%E7%A7%92%E6%92%AD-75%E5%B8%AD%20(%E7%BA%A656%25)-ff69b4?style=for-the-badge&logo=fastlane)](https://github.com/niubihu1/tvbox)
 [![电视直播](https://img.shields.io/badge/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD-2%2C000%2B%20%E4%BC%98%E8%B4%A8%E9%A2%91%E9%81%93-orange?style=for-the-badge&logo=youtube)](https://github.com/niubihu1/tvbox)
 [![实时弹幕](https://img.shields.io/badge/%E5%AE%9E%E6%97%B6%E5%BC%B9%E5%B9%95-9978%20%E5%85%A8%E7%B3%BB%E6%8C%82%E8%BD%BD-purple?style=for-the-badge&logo=twitch)](https://github.com/niubihu1/tvbox)
@@ -17,7 +17,7 @@
   历经本地家庭宽带测速筛选与 <b>10 项严苛门禁系统</b> 层层筛除淘汰，精炼打造真正开箱即用的天花板级家庭观影配置。
 </p>
 
-[🚀 极速订阅地址](#-极速订阅地址) • [🛡️ 10项铁律门禁](#-自动化流水线与-10-项铁律门禁) • [✨ 六大核心优势](#-六大核心硬核优势) • [📊 133站源黄金配比](#-133-站源黄金配比架构) • [📥 播放器下载](#-配套播放器下载) • [📖 三步导入教程](#-三步极简导入教程) • [💡 常见问题 FAQ](#-常见问题与观影优化)
+[🚀 极速订阅地址](#-极速订阅地址) • [🛡️ 10项铁律门禁](#-自动化流水线与-10-项铁律门禁) • [✨ 六大核心优势](#-六大核心硬核优势) • [📊 135站源黄金配比](#-135-站源黄金配比架构) • [📥 播放器下载](#-配套播放器下载) • [📖 三步导入教程](#-三步极简导入教程) • [💡 常见问题 FAQ](#-常见问题与观影优化)
 
 ---
 </div>
@@ -28,7 +28,7 @@
 > **日常观影强烈推荐首选「1️⃣ 豆瓣热播单仓接口」**：
 > 开机即出豆瓣热播海报墙与横向分类导航；第 2 位特设扫码配置中心；紧随 **75 席免登录秒播连环阵**，老人小孩拿遥控器即点即播！
 
-### 1️⃣ 🐯 牛虎 ┃ 豆瓣热播单仓接口（133 站源黄金旗舰·日常首选 ⭐⭐⭐⭐⭐）
+### 1️⃣ 🐯 牛虎 ┃ 豆瓣热播单仓接口（135 站源黄金旗舰·日常首选 ⭐⭐⭐⭐⭐）
 
 > 📱 **推荐客户端**：FongMi (蜂蜜)、TVBox 原版、影视仓 TV 版、月光宝盒 Max、宝盒等所有 TVBox 系播放器
 
@@ -36,9 +36,9 @@
   ```text
   https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
   ```
-* **备用加速线路（ghproxy 节点）**：
+* **备用加速线路（ghfast 节点）**：
   ```text
-  https://ghproxy.net/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
+  https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
   ```
 * **GitHub 原始直连（海外或软路由透明代理）**：
   ```text
@@ -109,7 +109,7 @@ flowchart LR
         C2["DEX字节码100%匹配 · 根Spider强哈希校验"]
     end
     subgraph D["纯净自动化交付成果"]
-        D1["1.json (133站源黄金单仓)"]
+        D1["1.json (135站源黄金单仓)"]
         D2["live.txt (2,000+ 电视直播)"]
         D3["tv8.json (16仓多仓容灾)"]
         D4["自用仓库.txt (实测延迟天梯榜)"]
@@ -149,18 +149,18 @@ flowchart LR
 
 ---
 
-## 📊 133 站源黄金配比架构
+## 📊 135 站源黄金配比架构
 
 针对家庭真实观影习惯，全量站源设计为科学的四层阶梯排布：
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                        🐯 牛虎 133 站源科学黄金配比                      │
+│                        🐯 牛虎 135 站源科学黄金配比                      │
 ├────────────────────────────────────────────────────────────────────────┤
 │  🍿 56% 免登录在线秒播 (75席) ─── 老人小孩开机即看，零门槛零广告秒播      │
 │  💎 15% 4K原画与网盘 (20席)   ─── 玩偶/至臻/木偶/蜡笔/闪电，蓝光画质天花板 │
 │  🛡️ 19% 稳定全网采集 (25席)   ─── 卧龙/量子/极速/非凡/茶杯狐，冷门老剧兜底 │
-│  🎪 10% 特色家庭专区 (12席)   ─── 体育赛事/名师课堂/戏曲名家，全家全场景  │
+│  🎪 10% 特色家庭专区 (13席)   ─── 体育赛事/名师课堂/戏曲名家，全家全场景  │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -169,7 +169,7 @@ flowchart LR
 * **Site #2 ~ 76**：`🏭厂长影视` + `嗷呜①~⑪线秒播连环阵` + 优质在线秒播大厂，即点即播；
 * **Site #77 ~ 96**：4K 原画专区（玩偶、木偶、至臻、蜡笔、闪电、种子等并发测速自愈）；
 * **Site #97 ~ 121**：稳定综合采集专区（卧龙、量子、极速、非凡、茶杯狐等深度互补）；
-* **Site #122 ~ 132**：特色家庭专区（体育看球、戏曲名家、少儿益智、名师课堂）。
+* **Site #122 ~ 134**：特色家庭专区（体育看球、戏曲名家、少儿益智、名师课堂）。
 
 ---
 
@@ -181,17 +181,17 @@ flowchart LR
 
 | 播放器名称 | 推荐版本 | 核心亮点与推荐场景 | 下载通道 |
 | :--- | :---: | :--- | :--- |
-| **FongMi 影视 (蜂蜜)**<br>*(全网口碑第一·强烈推荐)* | `v5.6.8` | 原生 Android TV 架构，秒播第一，支持杜比视界，极度流畅 | [⚡ 32位通用极速](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/leanback-armeabi_v7a.apk) ｜ [⚡ 64位高性能](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/leanback-arm64_v8a.apk)<br>[📦 夸克网盘](https://pan.quark.cn/s/b55be5547a68) ｜ [📦 UC网盘](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
+| **FongMi 影视 (蜂蜜)**<br>*(全网口碑第一·强烈推荐)* | `v5.8.7` | 原生 Android TV 架构，秒播第一，支持杜比视界，极度流畅 | [⚡ 32位通用极速](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/leanback-armeabi_v7a.apk) ｜ [⚡ 64位高性能](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/leanback-arm64_v8a.apk)<br>[📦 夸克网盘](https://pan.quark.cn/s/b55be5547a68) ｜ [📦 UC网盘](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
 | **TVBox 原版 (Takagen99)**<br>*(经典开源·装机量最大)* | `20260227` | 内存占用仅数十兆，深度适配各类老旧电视盒子，兼容性天花板 | [⚡ 32位通用下载](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/TVBox/TVBox_takagen99_20260227-1116-armeabi-generic-java.apk) ｜ [⚡ 64位高配下载](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/TVBox/TVBox_takagen99_20260227-1116-arm64-generic-java.apk) |
 | **月光宝盒 Max**<br>*(精美海报墙)* | `20260926` | 界面优雅华丽，自动刮削精美海报墙，单仓与多仓自由切换 | [⚡ 官方直链下载](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92Max1017.apk)<br>[📦 夸克网盘](https://pan.quark.cn/s/a2c78537f5df) ｜ [📦 UC网盘](https://drive.uc.cn/s/a993aa79c6984?public=1) |
-| **影视仓 原版 TV**<br>*(官方全仓聚合版)* | `v6.2.8` | 支持多仓热备、跨源聚合搜索，功能全面成熟 | [⚡ 官方直链下载](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-TV-32%E4%BD%8D-6.2.8.apk)<br>[📦 百度网盘 (pwd: a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) ｜ [📦 夸克网盘](https://pan.quark.cn/s/61d324167c07#/list/share) |
+| **影视仓 原版 TV**<br>*(官方全仓聚合版)* | `v6.2.9` | 支持多仓热备、跨源聚合搜索，功能全面成熟 | [⚡ 32位通用下载](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-TV6.2.9-32%E4%BD%8D.apk) ｜ [⚡ 64位高性能](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-TV6.2.9-64%E4%BD%8D.apk)<br>[📦 百度网盘 (pwd: a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) ｜ [📦 夸克网盘](https://pan.quark.cn/s/61d324167c07#/list/share) |
 
 ### 📱 2. 手机 / 平板触控专版（竖屏手势·随身追剧）
 
 | 播放器名称 | 推荐版本 | 核心亮点与推荐场景 | 下载通道 |
 | :--- | :---: | :--- | :--- |
-| **FongMi 影视 手机版**<br>*(移动端体验天花板)* | `v5.6.8` | 原生滑动调光/调音/快进快退，支持画中画与无感一键投屏 | [⚡ 64位高性能](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/mobile-arm64_v8a.apk) ｜ [⚡ 32位通用](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.6.8/mobile-armeabi_v7a.apk)<br>[📦 夸克网盘](https://pan.quark.cn/s/b55be5547a68) ｜ [📦 UC网盘](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
-| **影视仓 手机平板优化版** | `v3.3.8` | 高分屏与平板横竖屏动态自适应，触控跟手流畅 | [⚡ 官方直链下载](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF-64%E4%BD%8D-3.3.8_opt.apk)<br>[📦 百度网盘 (pwd: a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) |
+| **FongMi 影视 手机版**<br>*(移动端体验天花板)* | `v5.8.7` | 原生滑动调光/调音/快进快退，支持画中画与无感一键投屏 | [⚡ 64位高性能](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/mobile-arm64_v8a.apk) ｜ [⚡ 32位通用](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.7/mobile-armeabi_v7a.apk)<br>[📦 夸克网盘](https://pan.quark.cn/s/b55be5547a68) ｜ [📦 UC网盘](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
+| **影视仓 手机平板优化版** | `v3.3.9` | 高分屏与平板横竖屏动态自适应，触控跟手流畅 | [⚡ 官方直链下载](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF3.3.9-64%E4%BD%8D.apk)<br>[📦 百度网盘 (pwd: a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) |
 
 ---
 
@@ -247,7 +247,7 @@ flowchart LR
   1. 部分省份运营商 DNS 偶发拦截，可在电视 Wi-Fi 设置中将 DNS 修改为 `223.5.5.5`（阿里）或 `119.29.29.29`（腾讯）；
   2. 也可直接将接口地址前缀切换为备用线路：
      ```text
-     https://ghproxy.net/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
+     https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
      ```
 
 ---
@@ -257,7 +257,7 @@ flowchart LR
 * **搜索技巧**：
   1. 顶部全局搜索默认优先聚合秒播源；
   2. 若冷门资源在前排未搜出，可向后切换到 **稳定综合采集专区（卧龙/量子/极速/非凡/索尼）** 深度匹配；
-  3. 133 席站源全方位互补，全网热门冷门资源全面覆盖。
+  3. 135 席站源全方位互补，全网热门冷门资源全面覆盖。
 
 ---
 
