@@ -506,40 +506,14 @@
       "changeable": 1
     },
     {
-      "key": "好戏",
-      "name": "👑好戏超清👑",
+      "key": "csp_XBPQ_haoxi",
+      "name": "🍎┃好戏┃2K",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": {
-        "主页url": "https://haoxi.vip/",
-        "简介": "简介：&&</li>",
-        "导演": "导演：&&</li>",
-        "主演": "主演：&&</li>",
-        "影片状态": "状态：&&</li>",
-        "影片类型": "类型：&&</li>",
-        "影片地区": "地区：&&</li>",
-        "影片年代": "年份：&&</li>",
-        "嗅探词": "aliyuncs.com#.m3u8?#m3u8",
-        "数组": "_self\" class=\"public-list-exp\"&&</div>",
-        "标题": "title=\"&&\"",
-        "副标题": "public-list-prb hide ft2\">&&</span>",
-        "图片": "data-src=\"&&\"",
-        "搜索url": "https://haoxi.vip/vodsearch/{wd}----------1---/",
-        "搜索数组": "a target=\"_self\" class=\"public-list-exp\"&&thumb-else cor5 hide\">",
-        "搜索标题": "<a target=\"_self\" href=*>&&</a>",
-        "搜索副标题": "public-list-prb hide ft2\">&&</span>",
-        "搜索图片": "data-src=\"&&\"",
-        "线路数组": "<i class=\"fa ds-dianying\">&&/a>",
-        "线路标题": "</i>&&<",
-        "播放数组": "<ul class=\"anthology-list-play size\"&&</ul>",
-        "播放标题": ">&&</a>",
-        "播放列表": "<li&&</li>",
-        "线路二次截取": "<div class=\"swiper-wrapper\"&&</div>",
-        "分类url": "https://haoxi.vip/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}/;;a",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#B站$5#电影解说$43"
-      },
       "searchable": 1,
       "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/json/%E5%A5%BD%E6%88%8F.json",
       "changeable": 1
     },
     {
@@ -871,17 +845,6 @@
       "changeable": 1
     },
     {
-      "key": "csp_XBPQ_haoxi",
-      "name": "🍎┃好戏┃2K",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/json/%E5%A5%BD%E6%88%8F.json",
-      "changeable": 1
-    },
-    {
       "key": "csp_盒子",
       "name": "🍁┃电盒┃2K",
       "type": 3,
@@ -1109,6 +1072,17 @@
       "changeable": 1
     },
     {
+      "key": "app影院",
+      "name": "🔥app影院🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/app%E5%BD%B1%E9%99%A2.json",
+      "changeable": 1
+    },
+    {
       "key": "本地",
       "name": "本地视频 | 10.8",
       "type": 3,
@@ -1132,8 +1106,8 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://woggpan.888484.xyz",
           "https://wogg.link",
+          "https://woggpan.888484.xyz",
           "https://www.wogg.live"
         ]
       },
@@ -1150,8 +1124,8 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://xsayang.fun",
-          "http://38.76.197.172:12521"
+          "http://38.76.197.172:12521",
+          "http://xsayang.fun"
         ]
       },
       "timeout": 60
@@ -1167,10 +1141,7 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://123.666291.xyz",
-          "https://666.666291.xyz",
-          "https://www.muou.site",
-          "https://www.muou.asia"
+          "https://666.666291.xyz"
         ]
       },
       "timeout": 60
@@ -1202,10 +1173,10 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://www.fmcf.fun",
+          "http://tvpanpan.site",
           "https://www.mmpanpan.site",
-          "http://www.tvpanpan.site",
-          "http://tvpanpan.site"
+          "https://www.fmcf.fun",
+          "http://www.tvpanpan.site"
         ]
       },
       "timeout": 60
@@ -1256,8 +1227,8 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://xhban.xyz",
-          "http://38.76.197.172:16969"
+          "http://38.76.197.172:16969",
+          "http://xhban.xyz"
         ]
       },
       "timeout": 60
@@ -1712,25 +1683,6 @@
       "changeable": 1
     },
     {
-      "key": "猫眼资源",
-      "name": "猫眼资源(切)",
-      "type": 1,
-      "api": "http://maoyanapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "乐乐",
-      "name": "🎡️┃乐乐┃影视",
-      "type": 1,
-      "api": "https://leshizyapi.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
       "key": "极速资源",
       "name": "影视 • 极速[直连]",
       "type": 1,
@@ -1802,51 +1754,53 @@
       "changeable": 1
     },
     {
-      "key": "csp_xml_飞速",
-      "name": "❤飞速资源",
+      "key": "金鹰采集",
+      "name": "🍁金鹰采集🍁|cdn2020",
       "type": 1,
-      "api": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://jyzyapi.com/provide/vod/",
+      "style": {
+        "ratio": 1.7
+      },
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "动画片",
-        "其他片",
-        "国产剧",
-        "欧美剧",
-        "香港剧",
-        "韩国剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "其他剧",
-        "体育赛事",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺"
-      ],
       "changeable": 1
     },
     {
-      "key": "速博影院",
-      "name": "速博影院(聚)",
+      "key": "建安采集",
+      "name": "影视 | 建安",
       "type": 1,
-      "api": "http://www.subolg.com/api.php/provide/vod/",
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "iqiyizyapi.com",
+      "name": "🌻爱奇艺🌻",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "original_api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G973F) AppleWebKit/537.36",
+        "Accept": "application/json, */*",
+        "Connection": "close"
+      },
+      "ext": "https://iqiyizyapi.com",
+      "changeable": 1
+    },
+    {
+      "key": "U酷资源",
+      "name": "U酷资源",
+      "type": 1,
+      "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1

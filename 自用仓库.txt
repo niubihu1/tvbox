@@ -2,88 +2,92 @@
 {
     "urls": [
         {
-            "name": "🐯牛虎 ┃ 豆瓣热播 [264ms]",
+            "name": "🐯牛虎 ┃ 豆瓣热播 [712ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 官方主力 [179ms]",
+            "name": "🐼肥猫线路 ┃ 官方主力 [323ms]",
             "url": "http://xn--z7x900a.live/"
         },
         {
-            "name": "🍚饭太硬线 ┃ 旗舰片单 [133ms]",
+            "name": "🍚饭太硬线 ┃ 旗舰片单 [643ms]",
             "url": "http://www.xn--sss604efuw.cc/tv"
         },
         {
-            "name": "🐟摸鱼接口 ┃ 4K极速 [1023ms]",
+            "name": "🐟摸鱼接口 ┃ 4K极速 [1264ms]",
             "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top"
         },
         {
-            "name": "📺EasyTV ┃ 熵侦精选 [1505ms]",
+            "name": "📺EasyTV ┃ 熵侦精选 [2183ms]",
             "url": "https://15318.kstore.space/easytv.jpg"
         },
         {
-            "name": "🍃南风接口 ┃ 官方精选 [917ms]",
+            "name": "🍃南风接口 ┃ 官方精选 [2620ms]",
             "url": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json"
         },
         {
-            "name": "🍵荷城茶秀 ┃ 道长经典 [395ms]",
+            "name": "🍵荷城茶秀 ┃ 道长经典 [330ms]",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/HeChengChaXiu/tvbox/main/hccx.json"
         },
         {
-            "name": "⚡俊宇线路 ┃ 蓝光秒播 [381ms]",
+            "name": "⚡俊宇线路 ┃ 蓝光秒播 [144ms]",
             "url": "http://home.jundie.top:81/top98.json"
         },
         {
-            "name": "🚀王二小线 ┃ 综合推荐 [720ms]",
+            "name": "🚀王二小线 ┃ 综合推荐 [330ms]",
             "url": "http://new.xn--4kq62z5rby2qupq9ub.top/"
         },
         {
-            "name": "🌟潇洒线路 ┃ 优质备用 [482ms]",
+            "name": "🌟潇洒线路 ┃ 优质备用 [451ms]",
             "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json"
         },
         {
-            "name": "👿心魔线路 ┃ 极速专线 [279ms]",
+            "name": "👿心魔线路 ┃ 极速专线 [415ms]",
             "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
         },
         {
-            "name": "📦小盒子线 ┃ 精品多线 [672ms]",
+            "name": "📦小盒子线 ┃ 精品多线 [620ms]",
             "url": "http://xhztv.top/dc/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 备用镜像 [517ms]",
+            "name": "🐼肥猫线路 ┃ 备用镜像 [410ms]",
             "url": "https://w.junce.dpdns.org/fm.gif"
         },
         {
-            "name": "🍚饭太硬线 ┃ 备用镜像 [217ms]",
+            "name": "🍚饭太硬线 ┃ 备用镜像 [101ms]",
             "url": "http://www.xn--sss604efuw.net/tv"
         },
         {
-            "name": "🚀周J线路 ┃ 备用维护 [244ms]",
+            "name": "🚀周J线路 ┃ 备用维护 [413ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box"
         },
         {
-            "name": "☁️高天流云 ┃ 极速专线 [87ms]",
+            "name": "☁️高天流云 ┃ 极速专线 [103ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
         },
         {
-            "name": "👑刘备线路 ┃ 经典整合 [89ms]",
+            "name": "👑刘备线路 ┃ 经典整合 [1837ms]",
             "url": "https://raw.liucn.cc/box/m.json"
         },
         {
-            "name": "🐴小马线路 ┃ 综合备用 [1539ms]",
+            "name": "🐴小马线路 ┃ 综合备用 [2188ms]",
             "url": "http://szyyds.cn/tv/x.json"
         },
         {
-            "name": "📛挺好线路 ┃ 优质备用 [5297ms]",
+            "name": "📛挺好线路 ┃ 优质备用 [264ms]",
             "url": "https://ztha.top/TVBox/thdjk.json"
         },
         {
-            "name": "🚀™夜猫子源 [409ms]",
+            "name": "🚀fish2018_tvbox_源 [111ms]",
+            "url": "https://www.iyouhun.com/tv/0"
+        },
+        {
+            "name": "🚀™夜猫子源 [171ms]",
             "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymz"
         },
         {
-            "name": "🚀音乐接口 [698ms]",
-            "url": "http://mzrjk.top/%E5%90%AC%E6%AD%8C"
+            "name": "🚀™菜妮丝源 [301ms]",
+            "url": "https://tv.xn--yhqu5zs87a.top/"
         }
     ]
 }
