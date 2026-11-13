@@ -1074,8 +1074,8 @@
       "ext": {
         "site": [
           "http://tvpanpan.site",
-          "https://www.fmcf.fun",
           "https://www.mmpanpan.site",
+          "https://www.fmcf.fun",
           "http://www.tvpanpan.site"
         ]
       },
@@ -1838,16 +1838,34 @@
       }
     },
     {
+      "key": "哔哩合集",
+      "name": "哔哩 | 合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "n": "哔哩合集",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      }
+    },
+    {
       "key": "小学课堂",
-      "name": "📚小学｜教育",
+      "name": "小学 | 知识",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 0,
       "ext": {
-        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.png",
-        "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
+        "json": "https://easy888.dpdns.org/json/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
@@ -1856,15 +1874,15 @@
     },
     {
       "key": "初中课堂",
-      "name": "📚初中｜教育",
+      "name": "初中 | 知识",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 0,
       "ext": {
-        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.png",
-        "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
+        "json": "https://easy888.dpdns.org/json/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
@@ -1873,15 +1891,15 @@
     },
     {
       "key": "高中课堂",
-      "name": "📚高中｜教育",
+      "name": "高中 | 知识",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 0,
       "ext": {
-        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.png",
-        "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
+        "json": "https://easy888.dpdns.org/json/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
@@ -1890,15 +1908,15 @@
     },
     {
       "key": "少儿教育",
-      "name": "📚少儿｜教育",
+      "name": "少儿 | 知识",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.png",
-        "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
+        "json": "https://easy888.dpdns.org/json/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
         "type": "rect",
@@ -1995,21 +2013,6 @@
         "type": "rect",
         "ratio": 1.618
       }
-    },
-    {
-      "key": "小霸王本地",
-      "name": "🎮小霸王 | 游戏(推荐默壳)",
-      "type": 3,
-      "api": "csp_AppXBW",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 0.75
-      },
-      "timeout": 60
     }
   ],
   "lives": [

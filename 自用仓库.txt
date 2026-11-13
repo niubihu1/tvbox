@@ -2,11 +2,11 @@
 {
     "urls": [
         {
-            "name": "🐯牛虎 ┃ 豆瓣热播 [600ms]",
+            "name": "🐯牛虎 ┃ 豆瓣热播 [221ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 官方主力 [174ms]",
+            "name": "🐼肥猫线路 ┃ 官方主力 [165ms]",
             "url": "http://xn--z7x900a.live/"
         },
         {
@@ -58,7 +58,7 @@
             "url": "http://www.xn--sss604efuw.net/tv"
         },
         {
-            "name": "🚀周J线路 ┃ 备用维护 [558ms]",
+            "name": "🚀周J线路 ┃ 备用维护 [530ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box"
         },
         {
