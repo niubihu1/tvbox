@@ -579,6 +579,15 @@
       "changeable": 1
     },
     {
+      "key": "懂片",
+      "name": "懂片 | 影视",
+      "type": 3,
+      "api": "csp_DongPian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "番社动漫",
       "name": "番社 | 动漫",
       "type": 3,
@@ -609,10 +618,33 @@
       "changeable": 1
     },
     {
+      "key": "赏月",
+      "name": "赏月 | 动漫",
+      "type": 3,
+      "api": "csp_AnimeTsukimi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "稀饭",
       "name": "稀饭 | 动漫",
       "type": 3,
       "api": "csp_AnimeXifan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "耐看",
+      "name": "👑耐看点播👑",
+      "type": 3,
+      "viewType": 2,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
+        "分类url": "https://www.nkvod.us/show/{cateId}--------{catePg}---{year}.html"
+      },
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -640,6 +672,19 @@
         "type": "rect",
         "ratio": 1.618
       }
+    },
+    {
+      "key": "555yingshi",
+      "name": "🎃555┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类": "电影$1#电视剧$2#动漫$4",
+        "分类url": "https://5moov.vip/vodshow/{cateId}--------{catePg}---.html"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "旺旺影视",
@@ -702,6 +747,22 @@
       "changeable": 1
     },
     {
+      "key": "果果短剧",
+      "name": "果果 | 短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
+        "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
+      },
+      "genre": "shortdrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "天翼云盘",
       "name": "天翼 | 云盘",
       "type": 3,
@@ -728,28 +789,19 @@
       }
     },
     {
+      "key": "星辰影视",
+      "name": "星辰 | 影视",
+      "type": 3,
+      "api": "csp_XingChen",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "三六零",
       "name": "三六零 | 视频",
       "type": 3,
       "api": "csp_SP360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "懂片",
-      "name": "懂片 | 影视",
-      "type": 3,
-      "api": "csp_DongPian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "赏月",
-      "name": "赏月 | 动漫",
-      "type": 3,
-      "api": "csp_AnimeTsukimi",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -775,6 +827,16 @@
       "changeable": 1
     },
     {
+      "key": "csp_TSaowuAmns",
+      "name": "雷蒙影视 | 📖听听(SP)",
+      "type": 3,
+      "api": "csp_TSaowuAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+    },
+    {
       "key": "csp_影業",
       "name": "酒吧┃影视",
       "type": 3,
@@ -796,43 +858,6 @@
       "changeable": 1
     },
     {
-      "key": "耐看",
-      "name": "👑耐看点播👑",
-      "type": 3,
-      "viewType": 2,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
-        "分类url": "https://www.nkvod.us/show/{cateId}--------{catePg}---{year}.html"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_TSaowuAmns",
-      "name": "雷蒙影视 | 📖听听(SP)",
-      "type": 3,
-      "api": "csp_TSaowuAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
-    },
-    {
-      "key": "555yingshi",
-      "name": "🎃555┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类": "电影$1#电视剧$2#动漫$4",
-        "分类url": "https://5moov.vip/vodshow/{cateId}--------{catePg}---.html"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "半日99",
       "name": "半日秒播",
       "type": 3,
@@ -846,31 +871,6 @@
         "buildNumber": "2001",
         "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
       },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "果果短剧",
-      "name": "果果 | 短剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
-        "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
-      },
-      "genre": "shortdrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "星辰影视",
-      "name": "星辰 | 影视",
-      "type": 3,
-      "api": "csp_XingChen",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -1005,6 +1005,7 @@
       "changeable": 1,
       "ext": {
         "site": [
+          "https://www.wogg.live",
           "https://woggpan.888484.xyz",
           "https://wogg.link"
         ]
@@ -1074,10 +1075,10 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://tvpanpan.site",
-          "http://www.tvpanpan.site",
           "https://www.fmcf.fun",
-          "https://www.mmpanpan.site"
+          "https://www.mmpanpan.site",
+          "http://tvpanpan.site",
+          "http://www.tvpanpan.site"
         ]
       },
       "timeout": 60
@@ -1110,7 +1111,10 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://www.80yy3.com"
+          "https://www.80yy3.com",
+          "https://woog.nxog.eu.org",
+          "https://ogkk.nxog.eu.org",
+          "https://woog.430520.xyz"
         ]
       },
       "timeout": 60
@@ -1143,6 +1147,7 @@
       "changeable": 1,
       "ext": {
         "site": [
+          "https://www.hjzhencai.top",
           "https://www.huanjuanwp.shop"
         ]
       },
@@ -1372,45 +1377,6 @@
       "changeable": 1
     },
     {
-      "key": "奇虎资源",
-      "name": "🐯┃奇虎┃采集",
-      "type": 1,
-      "api": "https://caiji.qhzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "战争片",
-        "剧情片",
-        "伦理片",
-        "纪录片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "日本剧",
-        "台湾剧",
-        "泰国剧",
-        "海外剧",
-        "国产动漫",
-        "日本动漫",
-        "欧美动漫",
-        "大陆综艺",
-        "港台综艺",
-        "欧美综艺",
-        "日韩综艺",
-        "动画片",
-        "体育",
-        "短剧",
-        "网络电影"
-      ],
-      "changeable": 1
-    },
-    {
       "key": "csp_xml_无尽",
       "name": "❤无尽资源",
       "type": 1,
@@ -1501,16 +1467,6 @@
       "changeable": 1
     },
     {
-      "key": "乐乐",
-      "name": "🎡️┃乐乐┃影视",
-      "type": 1,
-      "api": "https://leshizyapi.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
       "key": "索尼",
       "name": "影视 • 索尼[直连]",
       "type": 0,
@@ -1593,92 +1549,6 @@
       "changeable": 1
     },
     {
-      "key": "csp_xml_飞速",
-      "name": "❤飞速资源",
-      "type": 1,
-      "api": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "动画片",
-        "其他片",
-        "国产剧",
-        "欧美剧",
-        "香港剧",
-        "韩国剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "其他剧",
-        "体育赛事",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺"
-      ],
-      "changeable": 1
-    },
-    {
-      "key": "49zy",
-      "name": "🦁┃四九┃资源",
-      "type": 1,
-      "api": "https://49zy1.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "纪录片",
-        "欧美剧",
-        "香港剧",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "喜剧片",
-        "动画片",
-        "犯罪片",
-        "韩国剧",
-        "动漫",
-        "电影",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "台湾剧",
-        "国产动漫",
-        "日本动漫",
-        "欧美动漫",
-        "泰国剧",
-        "日剧",
-        "电影解说",
-        "奇幻片",
-        "灾难片",
-        "悬疑片",
-        "其他片",
-        "体育赛事",
-        "海外剧"
-      ],
-      "changeable": 1
-    },
-    {
       "key": "快车资源",
       "name": "快车资源",
       "type": 1,
@@ -1688,19 +1558,19 @@
       "changeable": 1
     },
     {
-      "key": "光速资源",
-      "name": "光速资源(切)",
+      "key": "日诚影院",
+      "name": "日诚影院(聚)",
       "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "api": "http://tv.rcz168.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "日诚影院",
-      "name": "日诚影院(聚)",
+      "key": "光速资源",
+      "name": "光速资源(切)",
       "type": 1,
-      "api": "http://tv.rcz168.com/api.php/provide/vod/",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -1786,6 +1656,55 @@
       "name": "小鸟动漫(聚)",
       "type": 1,
       "api": "http://xydm.baicai.buzz/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "蜗牛动漫",
+      "name": "蜗牛动漫(聚)",
+      "type": 1,
+      "api": "http://woniudm.woniu.cyou:20000/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "魔都动漫",
+      "name": "🌻魔都动漫🌻",
+      "type": 1,
+      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "mdzy",
+      "name": "魔都资源",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        "国产剧",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "爱情片",
+        "纪录片",
+        "动画片",
+        "欧美剧",
+        "香港剧"
+      ],
+      "changeable": 1
+    },
+    {
+      "key": "天空资源",
+      "name": "天空资源(切)",
+      "type": 1,
+      "api": "https://api.tiankongapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
