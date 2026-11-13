@@ -1,4 +1,4 @@
-// 此多仓接口列表由 auto_engine 本地家庭宽带巡检引擎实时测速生成 [家庭测速版]
+// 此多仓接口列表由 GitHub Actions 自动化保活巡检引擎生成 [云端保活版]
 {
     "urls": [
         {
@@ -6,7 +6,7 @@
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 官方主力 [450ms]",
+            "name": "🐼肥猫线路 ┃ 官方主力 [在线]",
             "url": "http://xn--z7x900a.net/tv"
         },
         {
