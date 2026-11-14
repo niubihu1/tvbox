@@ -214,21 +214,8 @@
       "filterable": 1
     },
     {
-      "key": "热播影视",
-      "name": "热播 | 免扫2K",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "url": "http://v.rbotv.cn"
-      },
-      "changeable": 1
-    },
-    {
       "key": "剧下饭",
-      "name": "剧下饭 | 免扫4K",
+      "name": "剧下饭 | 免扫2K",
       "type": 3,
       "api": "csp_JuXiaFan",
       "searchable": 1,
@@ -833,6 +820,16 @@
       "filterable": 1
     },
     {
+      "key": "裤佬八戒PY",
+      "name": "👖裤佬丨八戒丨PY",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/%E5%85%AB%E6%88%92%E5%BD%B1%E8%A7%86.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "Anime1",
       "name": "A1｜ 动漫",
       "type": 3,
@@ -965,6 +962,34 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "✨YY影视✨",
+      "name": "UU|影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://uuys.cc",
+        "二次截取": "module-page&&<div id=\"page\">",
+        "数组": "<a&&</div></div>",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\"",
+        "副标题": "✨宝盒专享✨+module-item-note&&</div>",
+        "线路数组": "item tab-item&&</div>[排序:海湾资源>非凡播放>无尽资源]",
+        "线路标题": "宝盒专享✨+<span>&&</span>+【共+<small>&&</small>+集】",
+        "播放数组": "module-play-list\"&&</div>",
+        "播放标题": "宝盒专享✨+>&&</",
+        "简介": "✨宝盒提醒：请勿相信视频里的广告！✨+<p>&&</p >",
+        "搜索url": "https://uuys.cc/vodsearch/{wd}----------{pg}---.html",
+        "分类url": "https://uuys.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$2#电视剧$1#综艺$4#动漫$3"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "csp_XBPQ_haoxi",
@@ -1159,22 +1184,6 @@
       "changeable": 1
     },
     {
-      "key": "xbpq_喵次元",
-      "name": "喵喵┃动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "简介": "宝盒提醒您请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
-        "分类url": "https://www.catwcy.com/show/{cateId}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
-        "分类": "日本动漫$1#动漫电影$2#欧美动漫$25#4K专区$26",
-        "搜索url": "/search.html?wd={wd}"
-      },
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "csp_xBPQ_疯狗",
       "name": "🐕┃疯狗┃2K",
       "type": 3,
@@ -1264,9 +1273,9 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://wogg.link",
+          "https://www.wogg.live",
           "https://woggpan.888484.xyz",
-          "https://www.wogg.live"
+          "https://wogg.link"
         ]
       },
       "timeout": 60
@@ -1282,8 +1291,8 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://38.76.197.172:12521",
-          "http://xsayang.fun"
+          "http://xsayang.fun",
+          "http://38.76.197.172:12521"
         ]
       },
       "timeout": 60
@@ -1299,7 +1308,10 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://666.666291.xyz"
+          "https://123.666291.xyz",
+          "https://666.666291.xyz",
+          "https://www.muou.site",
+          "https://www.muou.asia"
         ]
       },
       "timeout": 60
@@ -1331,10 +1343,10 @@
       "changeable": 1,
       "ext": {
         "site": [
+          "https://www.fmcf.fun",
           "https://www.mmpanpan.site",
-          "http://www.tvpanpan.site",
           "http://tvpanpan.site",
-          "https://www.fmcf.fun"
+          "http://www.tvpanpan.site"
         ]
       },
       "timeout": 60
@@ -1385,8 +1397,8 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://38.76.197.172:16969",
-          "http://xhban.xyz"
+          "http://xhban.xyz",
+          "http://38.76.197.172:16969"
         ]
       },
       "timeout": 60
@@ -1402,6 +1414,7 @@
       "changeable": 1,
       "ext": {
         "site": [
+          "https://www.hjzhencai.top",
           "https://www.huanjuanwp.shop"
         ]
       },
@@ -1587,6 +1600,36 @@
       "changeable": 1
     },
     {
+      "key": "卡卡",
+      "name": "卡卡 • 4K",
+      "type": 3,
+      "api": "csp_KKPan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 60,
+      "changeable": 1
+    },
+    {
+      "key": "SeedHub",
+      "name": "🌱┆Seed┆4K",
+      "type": 3,
+      "api": "csp_SeedHub",
+      "searchable": 1,
+      "ext": {
+        "site": [
+          "https://sidhub.cc",
+          "https://seeduck.cc",
+          "https://hubdog.cc"
+        ]
+      },
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "夸克网盘",
       "name": "夸克 | 网盘",
       "type": 3,
@@ -1727,48 +1770,12 @@
       "changeable": 1
     },
     {
-      "key": "huya_虎牙采集",
-      "name": "🐯虎牙┃采集",
-      "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "wujin_无尽",
       "name": "♾️┃无尽┃采集",
       "type": 1,
       "api": "https://api.wujinapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "vod_光速",
-      "name": "雷蒙影视 | 🚀光速",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "战争片",
-        "剧情片",
-        "恐怖片",
-        "喜剧片",
-        "大陆剧",
-        "港澳剧",
-        "台湾剧",
-        "欧美剧",
-        "动漫电影",
-        "韩剧",
-        "日剧",
-        "泰剧"
-      ],
       "changeable": 1
     },
     {
@@ -2073,18 +2080,6 @@
       "changeable": 1
     },
     {
-      "key": "金鹰采集",
-      "name": "🍁金鹰采集🍁|cdn2020",
-      "type": 1,
-      "api": "https://jyzyapi.com/provide/vod/",
-      "style": {
-        "ratio": 1.7
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "建安采集",
       "name": "影视 | 建安",
       "type": 1,
@@ -2096,6 +2091,44 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "iqiyizyapi.com",
+      "name": "🌻爱奇艺🌻",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "original_api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G973F) AppleWebKit/537.36",
+        "Accept": "application/json, */*",
+        "Connection": "close"
+      },
+      "ext": "https://iqiyizyapi.com",
+      "changeable": 1
+    },
+    {
+      "key": "艾旦",
+      "name": "艾旦 | 采集",
+      "type": 1,
+      "ext": {
+        "proxy": "proxy"
+      },
+      "api": "https://www.lovedan.net/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "U酷资源",
+      "name": "U酷资源",
+      "type": 1,
+      "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
