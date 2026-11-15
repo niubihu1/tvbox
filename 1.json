@@ -305,6 +305,25 @@
       "changeable": 1
     },
     {
+      "key": "大马猴影视",
+      "name": "大马猴 | 免扫4K",
+      "type": 3,
+      "api": "csp_App3Q",
+      "ext": {
+        "host": "https://skykb.com",
+        "finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F",
+        "updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee",
+        "deviceBrand": "vivo",
+        "deviceModel": "V2309A",
+        "pkg": "com.damahou.tv",
+        "sk": "SK-woniu-thanks",
+        "ver": "1"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "韩圈",
       "name": "韩圈 | 免扫4K",
       "type": 3,
@@ -747,6 +766,20 @@
       "changeable": 1
     },
     {
+      "key": "荐片",
+      "name": "荐片 | 磁力",
+      "api": "csp_JianPian",
+      "type": 3,
+      "ext": {
+        "site": [
+          "https://www.zxfmj.com"
+        ]
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "New6v",
       "name": "New6V | 磁力",
       "type": 3,
@@ -1039,6 +1072,42 @@
       "changeable": 1
     },
     {
+      "key": "乐哥特供-4K动漫",
+      "name": "4K┃动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://cn.agekkkk.com/",
+        "数组": "lazyload\"&&</a>",
+        "标题": "title=\"&&\"",
+        "图片": "data-original=\"&&\"",
+        "副标题": "bbFB text-right\"><b>&&</b>",
+        "链接": "href=\"&&\"",
+        "播放数组": "class=\"play-list-content\"&&</ul>",
+        "播放列表": "<a&&a>",
+        "播放链接": "href=\"&&\"",
+        "播放标题": ">&&</",
+        "线路数组": "href=\"\\#playlist&&</a>",
+        "线路标题": "陆城专线",
+        "跳转播放链接": "urlDecode(var player_*\"url\":\"&&\")",
+        "搜索url": "https://cn.agekkkk.com/search/{wd}----------{pg}---.html",
+        "搜索数组": "lazyload\"&&</a>",
+        "搜索标题": "title=\"&&\"",
+        "搜索图片": "data-original=\"&&\"",
+        "搜索副标题": "bbFB text-right\"><b>&&</b>",
+        "搜索链接": "href=\"&&\"",
+        "简介": "style=\"display: none;\">&&</span>",
+        "分类url": "https://cn.agekkkk.com/type/{cateId}-{catePg}.html",
+        "分类": "日韩漫$1#国产漫$2#动态漫$5#特摄片$4#欧美漫$3"
+      },
+      "changeable": 1
+    },
+    {
       "key": "七新",
       "name": "👼┃七新┃2K",
       "type": 3,
@@ -1196,63 +1265,6 @@
       "changeable": 1
     },
     {
-      "key": "csp_日后",
-      "name": "🌜┃348┃2K",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/json/348%E5%BD%B1%E8%A7%86.json",
-      "changeable": 1
-    },
-    {
-      "key": "乐哥特供-4K动漫",
-      "name": "4K┃动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://cn.agekkkk.com/",
-        "数组": "lazyload\"&&</a>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "bbFB text-right\"><b>&&</b>",
-        "链接": "href=\"&&\"",
-        "播放数组": "class=\"play-list-content\"&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "href=\"\\#playlist&&</a>",
-        "线路标题": "陆城专线",
-        "跳转播放链接": "urlDecode(var player_*\"url\":\"&&\")",
-        "搜索url": "https://cn.agekkkk.com/search/{wd}----------{pg}---.html",
-        "搜索数组": "lazyload\"&&</a>",
-        "搜索标题": "title=\"&&\"",
-        "搜索图片": "data-original=\"&&\"",
-        "搜索副标题": "bbFB text-right\"><b>&&</b>",
-        "搜索链接": "href=\"&&\"",
-        "简介": "style=\"display: none;\">&&</span>",
-        "分类url": "https://cn.agekkkk.com/type/{cateId}-{catePg}.html",
-        "分类": "日韩漫$1#国产漫$2#动态漫$5#特摄片$4#欧美漫$3"
-      },
-      "changeable": 1
-    },
-    {
-      "key": "XBPQ_一只蜗",
-      "name": "🐂┃一蜗┃2K",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://jihulab.com/wanda/4k/-/raw/main/json/%E4%B8%80%E5%8F%AA%E8%9C%97.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "本地",
       "name": "本地视频 | 10.8",
       "type": 3,
@@ -1277,6 +1289,7 @@
       "ext": {
         "site": [
           "https://woggpan.888484.xyz",
+          "https://wogg.link",
           "https://www.wogg.live"
         ]
       },
@@ -1310,8 +1323,8 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "https://666.666291.xyz",
-          "https://123.666291.xyz"
+          "https://123.666291.xyz",
+          "https://666.666291.xyz"
         ]
       },
       "timeout": 60
@@ -1344,9 +1357,9 @@
       "ext": {
         "site": [
           "http://tvpanpan.site",
+          "http://www.tvpanpan.site",
           "https://www.mmpanpan.site",
-          "https://www.fmcf.fun",
-          "http://www.tvpanpan.site"
+          "https://www.fmcf.fun"
         ]
       },
       "timeout": 60
@@ -1596,20 +1609,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "卡卡",
-      "name": "卡卡 • 4K",
-      "type": 3,
-      "api": "csp_KKPan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "style": {
-        "type": "list"
-      },
-      "timeout": 60,
       "changeable": 1
     },
     {
