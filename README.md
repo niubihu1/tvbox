@@ -7,8 +7,8 @@
 **豆瓣海报开屏 · 免登秒播置顶 · 全域极速聚搜 · 本地最新 JAR 自托管**
 
 [![接口状态](https://img.shields.io/badge/接口状态-高速存活-brightgreen?style=flat-square)](https://github.com/niubihu1/tvbox)
-[![精选站源](https://img.shields.io/badge/精选站源-174%20站-blue?style=flat-square)](./1.json)
-[![聚搜支持](https://img.shields.io/badge/聚搜换源-140%20站-ff69b4?style=flat-square)](./1.json)
+[![精选站源](https://img.shields.io/badge/精选站源-172%20站-blue?style=flat-square)](./1.json)
+[![聚搜支持](https://img.shields.io/badge/聚搜换源-138%20站-ff69b4?style=flat-square)](./1.json)
 [![公网直播](https://img.shields.io/badge/直播线路-14%20路%20(9公网)-orange?style=flat-square)](./live.txt)
 [![安全门禁](https://img.shields.io/badge/Gatekeeper-10%20项全过-red?style=flat-square)](./1.json)
 
@@ -86,7 +86,7 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 | 模块 | 当前规格 | 核心说明 |
 | :--- | :--- | :--- |
-| **点播站源** | **172 站**（159 可搜 / 138 聚搜） | 在线免登 **95** + 4K 网盘 **34** + 无广告 CMS 采集 **22** + 特色专区 **23** |
+| **点播站源** | **172 站**（159 可搜 / 138 聚搜） | 在线免登 **97** + 4K 网盘 **32** + 无广告 CMS 采集 **22** + 特色专区 **21** |
 | **首屏排位** | **豆瓣开屏 + 配置中心 + 秒播连环阵** | `#0 豆瓣热播`、`#1 配置中心`、`#2 厂长影视` + 嗷呜 11 条秒播专线 |
 | **Spider 核心** | **`easy11.14.png` + `aowu.png` 自托管** | 最新本地包托管于本仓库并附 `;md5;` 指纹，免疫外链图床删档 404 |
 | **电视直播** | **14 路直播列表** / [`live.txt`](./live.txt) 2,076 流 | 含 **9 路实测可用公网直播** + 5 路本地飞羊（`127.0.0.1:35457`），带 EPG/台标 |
