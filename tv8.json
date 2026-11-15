@@ -53,16 +53,16 @@
       "sourceUrl": "https://12586.kstore.space/123.json"
     },
     {
-      "sourceName": "🚀推荐单仓链接 [740ms]",
+      "sourceName": "🚀推荐单仓链接 [753ms]",
       "sourceUrl": "http://z.qiqiv.cn/123"
     },
     {
-      "sourceName": "🚀盒多仓接口 [158ms]",
-      "sourceUrl": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
+      "sourceName": "🚀游魂多仓（备） [105ms]",
+      "sourceUrl": "https://www.iyouhun.com/tv/yh"
     },
     {
-      "sourceName": "🚀60. 多多应用多仓接口 [614ms]",
-      "sourceUrl": "https://gitlab.com/dokiss/tvbox/-/raw/main/%E5%9C%A5%E5%BF%88.json"
+      "sourceName": "🚀盒多仓接口 [161ms]",
+      "sourceUrl": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
     }
   ],
   "urls": [
@@ -119,16 +119,16 @@
       "url": "https://12586.kstore.space/123.json"
     },
     {
-      "name": "🚀推荐单仓链接 [740ms]",
+      "name": "🚀推荐单仓链接 [753ms]",
       "url": "http://z.qiqiv.cn/123"
     },
     {
-      "name": "🚀盒多仓接口 [158ms]",
-      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
+      "name": "🚀游魂多仓（备） [105ms]",
+      "url": "https://www.iyouhun.com/tv/yh"
     },
     {
-      "name": "🚀60. 多多应用多仓接口 [614ms]",
-      "url": "https://gitlab.com/dokiss/tvbox/-/raw/main/%E5%9C%A5%E5%BF%88.json"
+      "name": "🚀盒多仓接口 [161ms]",
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json"
     }
   ]
 }

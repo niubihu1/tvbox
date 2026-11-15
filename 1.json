@@ -678,16 +678,6 @@
       "changeable": 1
     },
     {
-      "key": "枫叶影视",
-      "name": "枫叶 | 影视",
-      "type": 3,
-      "api": "csp_FengYe",
-      "ext": "https://www.vip1949.com/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "爱看机器人",
       "name": "爱看 | 影视",
       "type": 3,
@@ -761,20 +751,6 @@
       "name": "花子 | 动漫",
       "type": 3,
       "api": "csp_AnimeHuazi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "荐片",
-      "name": "荐片 | 磁力",
-      "api": "csp_JianPian",
-      "type": 3,
-      "ext": {
-        "site": [
-          "https://www.zxfmj.com"
-        ]
-      },
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -1265,6 +1241,28 @@
       "changeable": 1
     },
     {
+      "key": "🔱｜专线⑭ 🏅",
+      "name": "🔱｜专线⑭ 🏅",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjzy/hjzy10.json",
+      "changeable": 1
+    },
+    {
+      "key": "csp_日后",
+      "name": "🌜┃348┃2K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/json/348%E5%BD%B1%E8%A7%86.json",
+      "changeable": 1
+    },
+    {
       "key": "本地",
       "name": "本地视频 | 10.8",
       "type": 3,
@@ -1305,7 +1303,8 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://38.76.197.172:12521"
+          "http://38.76.197.172:12521",
+          "http://xsayang.fun"
         ]
       },
       "timeout": 60
@@ -1354,10 +1353,10 @@
       "changeable": 1,
       "ext": {
         "site": [
-          "http://www.tvpanpan.site",
-          "https://www.fmcf.fun",
+          "http://tvpanpan.site",
           "https://www.mmpanpan.site",
-          "http://tvpanpan.site"
+          "https://www.fmcf.fun",
+          "http://www.tvpanpan.site"
         ]
       },
       "timeout": 60
@@ -1408,6 +1407,7 @@
       "changeable": 1,
       "ext": {
         "site": [
+          "http://38.76.197.172:16969",
           "http://xhban.xyz"
         ]
       },
@@ -2389,9 +2389,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "📡自动更新 ┃ 全国电视",
+      "name": "🍚饭太硬 ┃ 精选频道",
       "type": 0,
-      "url": "https://z.szyyds.cn/iptv",
+      "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
@@ -2405,16 +2405,16 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "🎵音乐台 ┃ 现场MV",
+      "name": "📡自动更新 ┃ 全国电视",
       "type": 0,
-      "url": "https://szyyds.cn/tv/live/yy.txt",
+      "url": "https://z.szyyds.cn/iptv",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
     {
-      "name": "🍚饭太硬 ┃ 精选频道",
+      "name": "🎵音乐台 ┃ 现场MV",
       "type": 0,
-      "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
+      "url": "https://szyyds.cn/tv/live/yy.txt",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
@@ -2426,19 +2426,19 @@
       "ua": "okhttp/3.15"
     },
     {
-      "name": "🎙️YY轮播 ┃ 影视公网",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15"
-    },
-    {
       "name": "📺EasyTV ┃ 熵侦卫视",
       "type": 0,
       "url": "https://easyzz.dpdns.org/api/tv.png",
       "timeout": 10,
       "changeable": 1,
       "playerType": 2
+    },
+    {
+      "name": "🌐Guovin ┃ 全网聚合",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15"
     },
     {
       "name": "🐟斗鱼 ┃ 一起看公网",
@@ -2495,9 +2495,9 @@
       "url": "Web"
     },
     {
-      "name": "盘古",
+      "name": "CK",
       "type": 0,
-      "url": "https://www.playm3u8.cn/jiexi.php?url=",
+      "url": "https://www.ckplayer.vip/jiexi/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -2515,89 +2515,9 @@
       }
     },
     {
-      "name": "CK",
+      "name": "盘古",
       "type": 0,
-      "url": "https://www.ckplayer.vip/jiexi/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "AB",
-      "type": 0,
-      "url": "http://jx.abplayer.top/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "诺讯",
-      "type": 0,
-      "url": "https://www.nxflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "红茶",
-      "type": 0,
-      "url": "https://jx.4kdv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "咸鱼",
-      "type": 0,
-      "url": "https://jx.xymp4.cc/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "冰豆",
-      "type": 0,
-      "url": "https://bd.jx.cn/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "虾米",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "M3U8",
-      "type": 0,
-      "url": "https://jx.m3u8.tv/jiexi/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "云解",
-      "type": 0,
-      "url": "https://yparse.ik9.cc/index.php?url=",
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -2615,6 +2535,56 @@
       }
     },
     {
+      "name": "虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "红茶",
+      "type": 0,
+      "url": "https://jx.4kdv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "ikun",
+      "type": 0,
+      "url": "https://jx.hls.one/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "诺讯",
+      "type": 0,
+      "url": "https://www.nxflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "云解",
+      "type": 0,
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
       "name": "XY",
       "type": 0,
       "url": "https://jx.xyflv.cc/?url=",
@@ -2625,9 +2595,39 @@
       }
     },
     {
-      "name": "okjx",
+      "name": "夜幕",
       "type": 0,
-      "url": "https://okjx.cc/?url=",
+      "url": "https://yemu.xyz/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "冰豆",
+      "type": 0,
+      "url": "https://bd.jx.cn/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "咸鱼",
+      "type": 0,
+      "url": "https://jx.xymp4.cc/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "M3U8",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"

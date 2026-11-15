@@ -48,7 +48,7 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
   https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
   ```
 
-* **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,095 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
+* **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,104 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
   ```text
   https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
   ```
@@ -89,7 +89,7 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 | **点播站源** | **172 站**（159 可搜 / 138 聚搜） | 在线免登 **97** + 4K 网盘 **32** + 无广告 CMS 采集 **22** + 特色专区 **21** |
 | **首屏排位** | **豆瓣开屏 + 配置中心 + 秒播连环阵** | `#0 豆瓣热播`、`#1 配置中心`、`#2 厂长影视` + 嗷呜 11 条秒播专线 |
 | **Spider 核心** | **`easy11.14.png` + `aowu.png` 自托管** | 最新本地包托管于本仓库并附 `;md5;` 指纹，免疫外链图床删档 404 |
-| **电视直播** | **14 路直播列表** / [`live.txt`](./live.txt) 2,095 流 | 含 **9 路实测可用公网直播** + 5 路本地飞羊（`127.0.0.1:35457`），带 EPG/台标 |
+| **电视直播** | **14 路直播列表** / [`live.txt`](./live.txt) 2,104 流 | 含 **9 路实测可用公网直播** + 5 路本地飞羊（`127.0.0.1:35457`），带 EPG/台标 |
 | **视频解析** | **15 路** | 首位通用 `Web` 聚合 + **14 路测速优选解析**（已自动过滤失效 `type: 1` 接口） |
 | **观影配套** | **弹幕 + 去广告 + DoH** | 原生 `9978` 实时弹幕、**6 条**去广告切片规则、**7 组**抗污染 DoH |
 | **工程兼容** | **零重复 Key · 零相对路径 · 全 ASCII URL** | `dupK=0`、`rel=0`、`nonAsc=0`，老旧盒子 OkHttp 稳定加载不崩溃 |
