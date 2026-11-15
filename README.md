@@ -21,31 +21,58 @@
 ## 🚀 订阅地址
 
 > [!TIP]
-> **日常观影首选 [`1.json`](./1.json)**：复制下方任意一条地址，在播放器 **「设置 ➔ 配置地址」** 中粘贴确定即可。
+> 每个代码框右上角均自带 **一键复制按钮**。日常观影只需复制下方 **主力单仓接口**，粘贴到播放器 **「设置 ➔ 配置地址」** 确定即可。
 
-### 1. 主力单仓接口（日常观影首选）
+### 🎯 主力单仓（日常观影首选）
 
-| 线路 | 接口地址 | 说明 |
-| :--- | :--- | :--- |
-| **国内主线（gh-proxy）** | `https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json` | 推荐，默认毫秒级加速 |
-| **备用加速（ghfast 节点）** | `https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json` | 备用加速线路（ghfast 节点） |
-| **GitHub 直连** | `https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json` | 海外网络或透明代理适用 |
+推荐默认主线（`gh-proxy` 国内毫秒级加速 · 点播 / 直播 / 4K 网盘一站全包）：
 
-### 2. 直播 · 多仓 · 仓库天梯
+```text
+https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
+```
 
-| 用途 | 适用端 | 国内加速直链 |
-| :--- | :--- | :--- |
-| **📺 独立电视直播** | TVBox / TiviMate / APTV / PotPlayer | `https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt` |
-| **📦 精选多仓聚合** | 影视仓 TV / 月光宝盒 / FongMi 多仓 | `https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json` |
-| **🪜 主流大仓天梯** | 影视仓 / TVBox 多仓切换（22 线） | `https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt` |
+### 🧩 扩展接口（按需选用）
+
+* **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,076 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
+  ```text
+  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
+  ```
+
+* **📦 精选多仓聚合**（[`tv8.json`](./tv8.json) · 16 线 · 适用 影视仓 TV / 月光宝盒 / FongMi 多仓）
+  ```text
+  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
+  ```
+
+* **🪜 主流大仓天梯**（[`自用仓库.txt`](./自用仓库.txt) · 22 线全网仓合集）
+  ```text
+  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
+  ```
 
 <details>
-<summary>查看 GitHub 原始直连（无加速前缀）</summary>
+<summary>🌐 备用加速节点与 GitHub 原始直连（主线拥堵或海外网络使用）</summary>
 
-* `1.json`: `https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json`
-* `live.txt`: `https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt`
-* `tv8.json`: `https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json`
-* `自用仓库.txt`: `https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt`
+* **备用加速线路（ghfast 节点）**（[`1.json`](./1.json)）：
+  ```text
+  https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
+  ```
+
+* **GitHub 原始直连（无加速前缀，适合海外网络或透明代理）**：
+  * `1.json`（单仓主力）
+    ```text
+    https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
+    ```
+  * `live.txt`（独立直播）
+    ```text
+    https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
+    ```
+  * `tv8.json`（多仓聚合）
+    ```text
+    https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
+    ```
+  * `自用仓库.txt`（大仓天梯）
+    ```text
+    https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
+    ```
 
 </details>
 
