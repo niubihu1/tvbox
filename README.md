@@ -38,11 +38,6 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 ### 🧩 扩展接口（按需选用）
 
-* **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,076 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
-  ```text
-  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
-  ```
-
 * **📦 精选多仓聚合**（[`tv8.json`](./tv8.json) · 16 线 · 适用 影视仓 TV / 月光宝盒 / FongMi 多仓）
   ```text
   https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
@@ -51,6 +46,11 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 * **🪜 主流大仓天梯**（[`自用仓库.txt`](./自用仓库.txt) · 22 线全网仓合集）
   ```text
   https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
+  ```
+
+* **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,076 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
+  ```text
+  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
   ```
 
 <details>
