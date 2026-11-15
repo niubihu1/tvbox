@@ -67,7 +67,7 @@
         },
         {
             "name": "👑刘备线路 ┃ 经典整合 [968ms]",
-            "url": "https://raw.liucn.cc/box/m.json"
+            "url": "http://raw.liucn.cc/box/m.json"
         },
         {
             "name": "🐴小马线路 ┃ 综合备用 [3436ms]",
