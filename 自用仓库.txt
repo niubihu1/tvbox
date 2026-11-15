@@ -2,11 +2,11 @@
 {
     "urls": [
         {
-            "name": "🐯牛虎 ┃ 豆瓣热播 [2460ms]",
+            "name": "🐯牛虎 ┃ 豆瓣热播 [361ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 官方主力 [737ms]",
+            "name": "🐼肥猫线路 ┃ 官方主力 [358ms]",
             "url": "http://xn--z7x900a.live/"
         },
         {
@@ -58,7 +58,7 @@
             "url": "http://www.xn--sss604efuw.net/tv"
         },
         {
-            "name": "🚀周J线路 ┃ 备用维护 [1983ms]",
+            "name": "🚀周J线路 ┃ 备用维护 [690ms]",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box"
         },
         {
@@ -78,12 +78,16 @@
             "url": "https://ztha.top/TVBox/thdjk.json"
         },
         {
-            "name": "🚀fish2018_tvbox_源 [35ms]",
-            "url": "https://www.iyouhun.com/tv/0"
+            "name": "🐺嗷呜线路 ┃ 原画秒播 [169ms]",
+            "url": "https://9763.kstore.vip/aowu.json"
         },
         {
-            "name": "🚀™夜猫子源 [173ms]",
-            "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymz"
+            "name": "🌸香雅情线 ┃ 经典XYQ [235ms]",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+        },
+        {
+            "name": "🌱道长线路 ┃ DRPY旗舰 [234ms]",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
         }
     ]
 }
