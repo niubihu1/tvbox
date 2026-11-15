@@ -53,8 +53,7 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
   https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
   ```
 
-<details>
-<summary>🌐 备用加速节点与 GitHub 原始直连（主线拥堵或海外网络使用）</summary>
+### 🌐 备用加速节点与 GitHub 原始直连
 
 * **备用加速线路（ghfast 节点）**（[`1.json`](./1.json)）：
   ```text
@@ -66,20 +65,18 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
     ```text
     https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
     ```
+  * `tv8.json`（精选多仓）
+    ```text
+    https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
+    ```
+  * `自用仓库.txt`（主流大仓天梯）
+    ```text
+    https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
+    ```
   * `live.txt`（独立直播）
     ```text
     https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
     ```
-  * `tv8.json`（多仓聚合）
-    ```text
-    https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
-    ```
-  * `自用仓库.txt`（大仓天梯）
-    ```text
-    https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
-    ```
-
-</details>
 
 ---
 
@@ -108,8 +105,7 @@ flowchart LR
     C --> D["同步交付本仓库<br/>1.json · live.txt · tv8.json · 自用仓库.txt"]
 ```
 
-<details>
-<summary>点击展开：Gatekeeper 10 项自动化门禁铁律</summary>
+### 🔒 Gatekeeper 10 项自动化门禁铁律
 
 | 规则 | 检查项 | 守护内容 |
 | :---: | :--- | :--- |
@@ -123,8 +119,6 @@ flowchart LR
 | **Rule 8** | **Spider 指纹校验** | 强制检验 `spider` 的 `;md5;` 与本地物理 JAR 文件严格一致 |
 | **Rule 9** | **纯净链路与编码** | 严禁多层代理嵌套、XBPQ 冗余外挂 Jar 与未 Punycode 转义的非 ASCII URL |
 | **Rule 10** | **防闪退根结构与配套** | 严格 12 个标准根字段（剥离 `hosts`/`headers`），核验弹幕、规则、解析、DoH 与 Logo |
-
-</details>
 
 ---
 
@@ -163,34 +157,18 @@ flowchart LR
 
 ## 💡 常见问题
 
-<details>
-<summary><b>Q1：播放偶发卡顿、只有声音没画面，或提示解码失败？</b></summary>
-
+**Q1：播放偶发卡顿、只有声音没画面，或提示解码失败？**
 * 在播放器 **「设置 ➔ 解码设置」** 中，将默认播放器或解码模式在 **IJK 硬解 / EXO** 之间切换尝试；4K 高码率片源建议优先开启硬解。
 
-</details>
-
-<details>
-<summary><b>Q2：如何使用 4K 原画网盘源（阿里 / 夸克 / UC）？</b></summary>
-
+**Q2：如何使用 4K 原画网盘源（阿里 / 夸克 / UC）？**
 * 切到首页第 2 位 **`🐯牛虎 ┃ 配置中心`**，用手机对应网盘客户端扫码登录授权一次即可全盘通用。
 
-</details>
-
-<details>
-<summary><b>Q3：提示“无法获取配置 / 下载超时”怎么办？</b></summary>
-
+**Q3：提示“无法获取配置 / 下载超时”怎么办？**
 * 运营商偶发污染 DNS 时，可将电视 Wi-Fi 的 DNS 改为 `223.5.5.5` 或 `119.29.29.29`；
 * 也可切换为备用加速线路（ghfast 节点）：`https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json`。
 
-</details>
-
-<details>
-<summary><b>Q4：找不到极冷门老剧怎么办？</b></summary>
-
+**Q4：找不到极冷门老剧怎么办？**
 * 默认全站已有 **140** 个开启聚搜的站点；如前排未命中，可继续向下滚动或直接启用排在后面的 **CMS 采集专区（暴风 / 红牛 / 量子 / 非凡等）**，或切至多仓列表 [`自用仓库.txt`](./自用仓库.txt) 中的其他线路补充。
-
-</details>
 
 ---
 
