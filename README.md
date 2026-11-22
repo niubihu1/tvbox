@@ -7,8 +7,8 @@
 **豆瓣海报开屏 · 免登秒播置顶 · 全域极速聚搜 · 本地最新 JAR 自托管**
 
 [![接口状态](https://img.shields.io/badge/接口状态-高速存活-brightgreen?style=flat-square)](https://github.com/niubihu1/tvbox)
-[![精选站源](https://img.shields.io/badge/精选站源-172%20站-blue?style=flat-square)](./1.json)
-[![聚搜支持](https://img.shields.io/badge/聚搜换源-138%20站-ff69b4?style=flat-square)](./1.json)
+[![精选站源](https://img.shields.io/badge/精选站源-171%20站-blue?style=flat-square)](./1.json)
+[![聚搜支持](https://img.shields.io/badge/聚搜换源-137%20站-ff69b4?style=flat-square)](./1.json)
 [![公网直播](https://img.shields.io/badge/直播线路-14%20路%20(9公网)-orange?style=flat-square)](./live.txt)
 [![安全门禁](https://img.shields.io/badge/Gatekeeper-10%20项全过-red?style=flat-square)](./1.json)
 
@@ -33,24 +33,24 @@
 推荐默认主线（`gh-proxy` 国内毫秒级加速 · 点播 / 直播 / 4K 网盘一站全包）：
 
 ```text
-https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
+https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
 ```
 
 ### 🧩 扩展接口（按需选用）
 
 * **📦 精选多仓聚合**（[`tv8.json`](./tv8.json) · 16 线 · 适用 影视仓 TV / 月光宝盒 / FongMi 多仓）
   ```text
-  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
+  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
   ```
 
 * **🪜 主流大仓天梯**（[`自用仓库.txt`](./自用仓库.txt) · 22 线全网仓合集）
   ```text
-  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
+  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
   ```
 
 * **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,104 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
   ```text
-  https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
+  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
   ```
 
 ### 🌐 备用加速节点与 GitHub 原始直连
@@ -82,13 +82,13 @@ https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 ## 📊 接口构成
 
-基于 `EasyTV`（`easy11.14.png`）+ `aowu.png` 双核 DEX 底座，从全网 **200+** 存活单仓、**2,000+** 候选站源中自动测活、去重与剔除死链后组装而成：
+基于 `EasyTV`（`easy11.20.png`）+ `aowu.png` 双核 DEX 底座，从全网 **200+** 存活单仓、**2,000+** 候选站源中自动测活、去重与剔除死链后组装而成：
 
 | 模块 | 当前规格 | 核心说明 |
 | :--- | :--- | :--- |
-| **点播站源** | **172 站**（159 可搜 / 138 聚搜） | 在线免登 **97** + 4K 网盘 **32** + 无广告 CMS 采集 **22** + 特色专区 **21** |
+| **点播站源** | **171 站**（158 可搜 / 137 聚搜） | 在线免登 **96** + 4K 网盘 **32** + 无广告 CMS 采集 **22** + 特色专区 **21** |
 | **首屏排位** | **豆瓣开屏 + 配置中心 + 秒播连环阵** | `#0 豆瓣热播`、`#1 配置中心`、`#2 厂长影视` + 嗷呜 11 条秒播专线 |
-| **Spider 核心** | **`easy11.14.png` + `aowu.png` 自托管** | 最新本地包托管于本仓库并附 `;md5;` 指纹，免疫外链图床删档 404 |
+| **Spider 核心** | **`easy11.20.png` + `aowu.png` 自托管** | 最新本地包托管于本仓库并附 `;md5;` 指纹，免疫外链图床删档 404 |
 | **电视直播** | **14 路直播列表** / [`live.txt`](./live.txt) 2,104 流 | 含 **9 路实测可用公网直播** + 5 路本地飞羊（`127.0.0.1:35457`），带 EPG/台标 |
 | **视频解析** | **15 路** | 首位通用 `Web` 聚合 + **14 路测速优选解析**（已自动过滤失效 `type: 1` 接口） |
 | **观影配套** | **弹幕 + 去广告 + DoH** | 原生 `9978` 实时弹幕、**6 条**去广告切片规则、**7 组**抗污染 DoH |
@@ -130,17 +130,17 @@ flowchart LR
 
 | 播放器 | 推荐版本 | 特点 | 下载地址 |
 | :--- | :---: | :--- | :--- |
-| **FongMi 影视 (蜂蜜)** | `v5.8.8` | 开源口碑首选，原生 TV 架构、流畅且支持杜比 | [32位通用](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.8/leanback-armeabi_v7a.apk) ｜ [64位](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.8/leanback-arm64_v8a.apk) ｜ [夸克](https://pan.quark.cn/s/b55be5547a68) ｜ [UC](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
-| **TVBox Takagen99** | `20260227` | 轻量低内存，老旧安卓盒子兼容性好 | [32位通用](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/TVBox/TVBox_takagen99_20260227-1116-armeabi-generic-java.apk) ｜ [64位](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/TVBox/TVBox_takagen99_20260227-1116-arm64-generic-java.apk) |
-| **月光宝盒 Max** | `20260926` | 界面美观，支持单仓/多仓切换 | [APK直链](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92Max1017.apk) ｜ [夸克](https://pan.quark.cn/s/a2c78537f5df) ｜ [UC](https://drive.uc.cn/s/a993aa79c6984?public=1) |
-| **影视仓 原版 TV** | `v6.2.9` | 原生支持多仓与 `tv8.json` 聚合切换 | [32位通用](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-TV6.2.9-32%E4%BD%8D.apk) ｜ [64位](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-TV6.2.9-64%E4%BD%8D.apk) ｜ [百度(a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) ｜ [夸克](https://pan.quark.cn/s/61d324167c07#/list/share) |
+| **FongMi 影视 (蜂蜜)** | `v5.9.0` | 开源口碑首选，原生 TV 架构、流畅且支持杜比 | [32位通用](https://gh-proxy.org/https://github.com/FongMi/Release/releases/download/5.9.0/leanback-armeabi_v7a.apk) ｜ [64位](https://gh-proxy.org/https://github.com/FongMi/Release/releases/download/5.9.0/leanback-arm64_v8a.apk) ｜ [夸克](https://pan.quark.cn/s/b55be5547a68) ｜ [UC](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
+| **TVBox Takagen99** | `20260227` | 轻量低内存，老旧安卓盒子兼容性好 | [32位通用](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/TVBox/TVBox_takagen99_20260227-1116-armeabi-generic-java.apk) ｜ [64位](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/TVBox/TVBox_takagen99_20260227-1116-arm64-generic-java.apk) |
+| **月光宝盒 Max** | `20260926` | 界面美观，支持单仓/多仓切换 | [APK直链](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92Max1017.apk) ｜ [夸克](https://pan.quark.cn/s/a2c78537f5df) ｜ [UC](https://drive.uc.cn/s/a993aa79c6984?public=1) |
+| **影视仓 原版 TV** | `v6.2.9` | 原生支持多仓与 `tv8.json` 聚合切换 | [32位通用](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-TV6.2.9-32%E4%BD%8D.apk) ｜ [64位](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-TV6.2.9-64%E4%BD%8D.apk) ｜ [百度(a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) ｜ [夸克](https://pan.quark.cn/s/61d324167c07#/list/share) |
 
 ### 📱 手机 / 平板端
 
 | 播放器 | 推荐版本 | 特点 | 下载地址 |
 | :--- | :---: | :--- | :--- |
-| **FongMi 影视 手机版** | `v5.8.8` | 触控手势、画中画与一键投屏体验最佳 | [64位](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.8/mobile-arm64_v8a.apk) ｜ [32位](https://gh-proxy.com/https://github.com/FongMi/Release/releases/download/5.8.8/mobile-armeabi_v7a.apk) ｜ [夸克](https://pan.quark.cn/s/b55be5547a68) ｜ [UC](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
-| **影视仓 手机平板优化版** | `v3.3.9` | 适配手机/平板横竖屏，支持多仓管理 | [APK直链](https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF3.3.9-64%E4%BD%8D.apk) ｜ [百度(a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) |
+| **FongMi 影视 手机版** | `v5.9.0` | 触控手势、画中画与一键投屏体验最佳 | [64位](https://gh-proxy.org/https://github.com/FongMi/Release/releases/download/5.9.0/mobile-arm64_v8a.apk) ｜ [32位](https://gh-proxy.org/https://github.com/FongMi/Release/releases/download/5.9.0/mobile-armeabi_v7a.apk) ｜ [夸克](https://pan.quark.cn/s/b55be5547a68) ｜ [UC](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
+| **影视仓 手机平板优化版** | `v3.3.9` | 适配手机/平板横竖屏，支持多仓管理 | [APK直链](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF3.3.9-64%E4%BD%8D.apk) ｜ [百度(a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) |
 
 ---
 
@@ -150,7 +150,7 @@ flowchart LR
 2. **手机扫码推送**（免遥控器打字）：保证手机与电视同一 Wi-Fi，用手机微信/浏览器扫描屏幕二维码（或访问页面显示的 `http://192.168.x.x:9978`）；
 3. **填入接口并确定**：粘贴上方主线地址并点击确定：
    ```text
-   https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
+   https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
    ```
 
 ---
@@ -168,7 +168,7 @@ flowchart LR
 * 也可切换为备用加速线路（ghfast 节点）：`https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json`。
 
 **Q4：找不到极冷门老剧怎么办？**
-* 默认全站已有 **138** 个开启聚搜的站点；如前排未命中，可继续向下滚动或直接启用排在后面的 **CMS 采集专区（暴风 / 红牛 / 量子 / 非凡等）**，或切至多仓列表 [`自用仓库.txt`](./自用仓库.txt) 中的其他线路补充。
+* 默认全站已有 **137** 个开启聚搜的站点；如前排未命中，可继续向下滚动或直接启用排在后面的 **CMS 采集专区（暴风 / 红牛 / 量子 / 非凡等）**，或切至多仓列表 [`自用仓库.txt`](./自用仓库.txt) 中的其他线路补充。
 
 ---
 
