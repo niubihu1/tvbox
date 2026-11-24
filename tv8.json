@@ -57,12 +57,12 @@
       "sourceUrl": "http://z.qiqiv.cn/123"
     },
     {
-      "sourceName": "🚀小盒子多仓 [在线]",
-      "sourceUrl": "http://xhztv.top/dc/"
-    },
-    {
       "sourceName": "🚀小盒子多仓（备） [在线]",
       "sourceUrl": "http://xhztv.top/DC.txt"
+    },
+    {
+      "sourceName": "🚀60. 多多应用多仓接口 [在线]",
+      "sourceUrl": "https://gitlab.com/dokiss/tvbox/-/raw/main/%E5%9C%A5%E5%BF%88.json"
     }
   ],
   "urls": [
@@ -123,12 +123,12 @@
       "url": "http://z.qiqiv.cn/123"
     },
     {
-      "name": "🚀小盒子多仓 [在线]",
-      "url": "http://xhztv.top/dc/"
-    },
-    {
       "name": "🚀小盒子多仓（备） [在线]",
       "url": "http://xhztv.top/DC.txt"
+    },
+    {
+      "name": "🚀60. 多多应用多仓接口 [在线]",
+      "url": "https://gitlab.com/dokiss/tvbox/-/raw/main/%E5%9C%A5%E5%BF%88.json"
     }
   ]
 }
