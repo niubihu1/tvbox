@@ -58,7 +58,7 @@
             "url": "http://www.xn--sss604efuw.net/tv"
         },
         {
-            "name": "🚀周J线路 ┃ 备用维护 [1472ms]",
+            "name": "🚀周J线路 ┃ 备用维护 [579ms]",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/zhoujck/config/main/box"
         },
         {
