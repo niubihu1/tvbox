@@ -7,7 +7,7 @@
 **豆瓣海报开屏 · 免登秒播置顶 · 全域极速聚搜 · 本地最新 JAR 自托管**
 
 [![接口状态](https://img.shields.io/badge/接口状态-高速存活-brightgreen?style=flat-square)](https://github.com/niubihu1/tvbox)
-[![精选站源](https://img.shields.io/badge/精选站源-173%20站-blue?style=flat-square)](./1.json)
+[![精选站源](https://img.shields.io/badge/精选站源-172%20站-blue?style=flat-square)](./1.json)
 [![聚搜支持](https://img.shields.io/badge/聚搜换源-139%20站-ff69b4?style=flat-square)](./1.json)
 [![公网直播](https://img.shields.io/badge/直播线路-14%20路%20(9公网)-orange?style=flat-square)](./live.txt)
 [![安全门禁](https://img.shields.io/badge/Gatekeeper-10%20项全过-red?style=flat-square)](./1.json)
@@ -82,13 +82,13 @@ https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 ## 📊 接口构成
 
-基于 `EasyTV`（`easy11.24.png`）纯单 Spider 原生 DEX 底座（0 外挂 Jar），从全网 **200+** 存活单仓、**2,000+** 候选站源中自动测活、去重与剔除死链后组装而成：
+基于 `EasyTV`（`easy11.25.png`）纯单 Spider 原生 DEX 底座（0 外挂 Jar），从全网 **200+** 存活单仓、**2,000+** 候选站源中自动测活、去重与剔除死链后组装而成：
 
 | 模块 | 当前规格 | 核心说明 |
 | :--- | :--- | :--- |
-| **点播站源** | **173 站**（160 可搜 / 139 聚搜） | 在线免登 **97** + 4K 网盘 **33** + 无广告 CMS 采集 **22** + 特色专区 **21** |
+| **点播站源** | **172 站**（160 可搜 / 139 聚搜） | 在线免登 **97** + 4K 网盘 **32** + 无广告 CMS 采集 **22** + 特色专区 **21** |
 | **首屏排位** | **豆瓣开屏 + 配置中心 + 旗舰在线连环阵** | `#0 豆瓣热播`、`#1 配置中心`、`#2 厂长影视` + 优质免登秒播旗舰矩阵 |
-| **Spider 核心** | **`easy11.24.png` 官方直连 CDN（0 外挂 Jar）** | 腾讯云 EdgeOne 官方极速直连 CDN（附 `;md5;` 指纹），本地与仓库高可用双轨备份，免疫反代屏蔽 |
+| **Spider 核心** | **`easy11.25.png` 官方直连 CDN（0 外挂 Jar）** | 腾讯云 EdgeOne 官方极速直连 CDN（附 `;md5;` 指纹），本地与仓库高可用双轨备份，免疫反代屏蔽 |
 | **电视直播** | **14 路直播列表** / [`live.txt`](./live.txt) 2,104 流 | 含 **9 路实测可用公网直播** + 5 路本地飞羊（`127.0.0.1:35457`），带 EPG/台标 |
 | **视频解析** | **15 路** | 首位通用 `Web` 聚合 + **14 路测速优选解析**（已自动过滤失效 `type: 1` 接口） |
 | **观影配套** | **弹幕 + 去广告 + DoH** | 原生 `9978` 实时弹幕、**6 条**去广告切片规则、**7 组**抗污染 DoH |
