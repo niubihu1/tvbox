@@ -10,7 +10,7 @@
 [![最近更新](https://img.shields.io/github/last-commit/niubihu1/tvbox?style=flat-square&color=blue&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0)](https://github.com/niubihu1/tvbox/commits/main)
 [![接口状态](https://img.shields.io/badge/接口状态-高速存活-brightgreen?style=flat-square)](https://github.com/niubihu1/tvbox)
 [![精选站源](https://img.shields.io/badge/精选站源-195%20站-blue?style=flat-square)](./1.json)
-[![聚搜支持](https://img.shields.io/badge/聚搜换源-148%20站-ff69b4?style=flat-square)](./1.json)
+[![聚搜支持](https://img.shields.io/badge/聚搜换源-143%20站-ff69b4?style=flat-square)](./1.json)
 [![公网直播](https://img.shields.io/badge/直播线路-14%20路%20(9公网)-orange?style=flat-square)](./live.txt)
 [![安全门禁](https://img.shields.io/badge/Gatekeeper-10%20项全过-red?style=flat-square)](./1.json)
 
@@ -98,7 +98,7 @@ https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 | 模块 | 当前规格 | 核心说明 |
 | :--- | :--- | :--- |
-| **点播站源** | **195 站**（173 可搜 / 148 聚搜） | 在线免登 **103** + 4K 网盘 **37** + 无广告 CMS 采集 **21** + 特色专区 **34** |
+| **点播站源** | **195 站**（172 可搜 / 143 聚搜） | 在线免登 **97** + 4K 网盘 **37** + 无广告 CMS 采集 **22** + 特色专区 **39** |
 | **首屏排位** | **豆瓣开屏 + 配置中心 + 旗舰在线连环阵** | `#0 豆瓣热播`、`#1 配置中心`、`#2 厂长影视` + 优质免登秒播旗舰矩阵 |
 | **Spider 核心** | **`easy11.25.png` 官方直连 CDN（0 外挂 Jar）** | 腾讯云 EdgeOne 官方极速直连 CDN（附 `;md5;` 指纹），本地与仓库高可用双轨备份，免疫反代屏蔽 |
 | **外部脚本库** | **`JS / PY / JSON` 规则全量自托管镜像** | 同步自托管镜像全部官方脚本与课堂规则，彻底消除外部域名单点失效 |
@@ -184,7 +184,7 @@ flowchart LR
 * 也可切换为备用加速线路（ghfast 节点）：`https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json`。
 
 **Q4：找不到极冷门老剧怎么办？**
-* 默认全站已有 **148** 个开启聚搜的站点；如前排未命中，可继续向下滚动或直接启用排在后面的 **CMS 采集专区（暴风 / 红牛 / 量子 / 非凡等）**，或切至多仓列表 [`自用仓库.txt`](./自用仓库.txt) 中的其他线路补充。
+* 默认全站已有 **143** 个开启聚搜的站点；如前排未命中，可继续向下滚动或直接启用排在后面的 **CMS 采集专区（暴风 / 红牛 / 量子 / 非凡等）**，或切至多仓列表 [`自用仓库.txt`](./自用仓库.txt) 中的其他线路补充。
 
 **Q5：某个站源失效或有想加的片源怎么反馈？**
 * 欢迎直接前往 [**Issues 问题反馈区**](https://github.com/niubihu1/tvbox/issues) 留言，我们会结合自动化探针及时排查修复。
