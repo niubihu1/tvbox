@@ -147,7 +147,7 @@ flowchart LR
 | 播放器 | 推荐版本 | 特点 | 下载地址 |
 | :--- | :---: | :--- | :--- |
 | **FongMi 影视 手机版** | `v5.9.0` | 触控手势、画中画与一键投屏体验最佳 | [64位](https://gh-proxy.org/https://github.com/FongMi/Release/releases/download/5.9.0/mobile-arm64_v8a.apk) ｜ [32位](https://gh-proxy.org/https://github.com/FongMi/Release/releases/download/5.9.0/mobile-armeabi_v7a.apk) ｜ [夸克](https://pan.quark.cn/s/b55be5547a68) ｜ [UC](https://drive.uc.cn/s/f8e067cede5f4?public=1) |
-| **影视仓 手机平板优化版** | `v3.3.9` | 适配手机/平板横竖屏，支持多仓管理 | [APK直链](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-%E6%89%8B%E6%9C%BA%E5%B9%B3%E6%9D%BF3.3.9-64%E4%BD%8D.apk) ｜ [百度(a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) |
+| **影视仓 手机平板优化版** | `v3.3.10` | 适配手机/平板横竖屏，支持多仓管理 | [APK直链](https://gh-proxy.org/https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86%E4%BB%93/%E5%BD%B1%E8%A7%86%E4%BB%93-%E6%89%8B%E6%9C%BA%E7%89%88%E5%B9%B3%E6%9D%BF3.3.10-64%E4%BD%8D.apk) ｜ [百度(a6g7)](https://pan.baidu.com/s/11RcWwauUQiWt_Ids_zs5Qw?pwd=a6g7) |
 
 ---
 
