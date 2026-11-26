@@ -4,21 +4,23 @@
 
 # 🐯 牛虎 ┃ TVBox 全功能精选订阅
 
-**豆瓣海报开屏 · 免登秒播置顶 · 全域极速聚搜 · 本地最新 JAR 自托管**
+**免登秒播置顶 · 148 站全网聚搜 · 脚本双轨自托管 · 每日两次自动测活剔死链**
 
+[![Star 收藏](https://img.shields.io/github/stars/niubihu1/tvbox?style=flat-square&color=gold&label=Star%20%E6%94%B6%E8%97%8F)](https://github.com/niubihu1/tvbox/stargazers)
+[![最近更新](https://img.shields.io/github/last-commit/niubihu1/tvbox?style=flat-square&color=blue&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0)](https://github.com/niubihu1/tvbox/commits/main)
 [![接口状态](https://img.shields.io/badge/接口状态-高速存活-brightgreen?style=flat-square)](https://github.com/niubihu1/tvbox)
-[![精选站源](https://img.shields.io/badge/精选站源-172%20站-blue?style=flat-square)](./1.json)
-[![聚搜支持](https://img.shields.io/badge/聚搜换源-138%20站-ff69b4?style=flat-square)](./1.json)
+[![精选站源](https://img.shields.io/badge/精选站源-195%20站-blue?style=flat-square)](./1.json)
+[![聚搜支持](https://img.shields.io/badge/聚搜换源-148%20站-ff69b4?style=flat-square)](./1.json)
 [![公网直播](https://img.shields.io/badge/直播线路-14%20路%20(9公网)-orange?style=flat-square)](./live.txt)
 [![安全门禁](https://img.shields.io/badge/Gatekeeper-10%20项全过-red?style=flat-square)](./1.json)
 
-[🚀 订阅地址](#-订阅地址) · [📊 接口构成](#-接口构成) · [🛡️ 工程保障](#️-工程保障) · [📥 客户端下载](#-客户端下载) · [📖 导入教程](#-三步导入) · [💡 常见问题](#-常见问题)
+[🚀 一键订阅](#-订阅地址) · [✨ 核心优势](#-为什么选择牛虎) · [📊 接口构成](#-接口构成) · [📥 客户端下载](#-客户端下载) · [📖 三步导入](#-三步导入) · [💡 常见问题](#-常见问题)
 
 </div>
 
 <p align="center">
-  汇总筛选全网 <b>2,000+</b> 候选接口，经本地实测测速与 <b>10 项门禁校验</b> 剔除死链与失效源，精简保留开箱即用配置。<br>
-  站源与底座致谢：感谢 <b>肥猫、饭太硬、摸鱼、王小二、EasyTV、俊于、道长、心魔</b> 等一线大仓作者的持续维护与无私分享。
+  全网汇聚 <b>2,000+</b> 候选接口，经并发切片测活与 <b>10 项 Gatekeeper 硬门禁</b> 自动剔除死链与失效源，每天早晚自动巡检更新。<br>
+  站源与底座致谢：感谢 <b>肥猫、饭太硬、摸鱼、王二小、EasyTV、俊于、道长、心魔</b> 等一线大仓作者的持续维护与无私分享。
 </p>
 
 ---
@@ -26,11 +28,7 @@
 ## 🚀 订阅地址
 
 > [!TIP]
-> 每个代码框右上角均自带 **一键复制按钮**。日常观影只需复制下方 **主力单仓接口**，粘贴到播放器 **「设置 ➔ 配置地址」** 确定即可。
-
-### 🎯 主力单仓（日常观影首选）
-
-推荐默认主线（`gh-proxy` 国内毫秒级加速 · 点播 / 直播 / 4K 网盘一站全包）：
+> **99% 的用户只需复制下面这一条主力单仓接口**：点击代码框右上角 **复制图标**，粘贴到播放器 **「设置 ➔ 配置地址」** 确定即可（点播、4K 网盘、电视直播一站全包）。
 
 ```text
 https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
@@ -38,22 +36,14 @@ https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 ### 🧩 扩展接口（按需选用）
 
-* **📦 精选多仓聚合**（[`tv8.json`](./tv8.json) · 16 线 · 适用 影视仓 TV / 月光宝盒 / FongMi 多仓）
-  ```text
-  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
-  ```
+| 用途 | 适用播放器 / 场景 | 复制直链（`gh-proxy` 国内高速节点） |
+| :--- | :--- | :--- |
+| **📦 精选多仓聚合**（[`tv8.json`](./tv8.json) · 16 线） | 影视仓 TV / 月光宝盒 / FongMi 多仓 | `https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json` |
+| **🪜 主流大仓天梯**（[`自用仓库.txt`](./自用仓库.txt) · 22 线） | 切换肥猫、饭太硬、摸鱼儿等一线大仓 | `https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt` |
+| **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,104 流） | TVBox 直播 / TiviMate / APTV / PotPlayer | `https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt` |
 
-* **🪜 主流大仓天梯**（[`自用仓库.txt`](./自用仓库.txt) · 22 线全网仓合集）
-  ```text
-  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
-  ```
-
-* **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,104 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
-  ```text
-  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
-  ```
-
-### 🌐 备用加速节点与 GitHub 原始直连
+<details>
+<summary>🌐 备用加速节点与 GitHub 原始直连（主线超时或海外网络请点此展开）</summary>
 
 * **备用加速线路（ghfast 节点）**（[`1.json`](./1.json)）：
   ```text
@@ -78,6 +68,19 @@ https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
     https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
     ```
 
+</details>
+
+---
+
+## ✨ 为什么选择牛虎？
+
+| 传统接口常见痛点 | 🐯 牛虎接口的工程解法 |
+| :--- | :--- |
+| **一打开前排全是要扫码的网盘，不买会员根本看不了** | **免登秒播前置**：前 20 席位全部锁定免扫码在线即开即播旗舰站，老人小孩打开即看；`#1` 统一配置中心一码授权即可全盘畅看 4K 原画。 |
+| **冷门老剧搜不到、点进去只有一条线还卡死** | **全网聚搜大满贯**：**148 站** 显式开启快搜与聚搜换源（占比 **76%**，远超常规接口），并配有 **21 家无切片广告 CMS 采集大厂** 强力兜底。 |
+| **上游突然删文件 404，或外链脚本跑路全站瘫痪** | **全链路双轨自托管**：主 Spider JAR 与全部 `JS/PY/JSON` 脚本规则均同步镜像归档至本仓库，彻底消灭外部域名单点失效风险。 |
+| **接口用几天就大面积失效，无人维护只能到处重新找** | **云端日更保活**：GitHub Actions 每天 **04:25 / 16:25** 自动并发探活，自动剔除 404/500 死链、优选最低延迟网盘镜像并跟随上游新版。 |
+
 ---
 
 ## 📊 接口构成
@@ -86,9 +89,10 @@ https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 | 模块 | 当前规格 | 核心说明 |
 | :--- | :--- | :--- |
-| **点播站源** | **172 站**（159 可搜 / 138 聚搜） | 在线免登 **97** + 4K 网盘 **32** + 无广告 CMS 采集 **22** + 特色专区 **21** |
+| **点播站源** | **195 站**（173 可搜 / 148 聚搜） | 在线免登 **103** + 4K 网盘 **37** + 无广告 CMS 采集 **21** + 特色专区 **34** |
 | **首屏排位** | **豆瓣开屏 + 配置中心 + 旗舰在线连环阵** | `#0 豆瓣热播`、`#1 配置中心`、`#2 厂长影视` + 优质免登秒播旗舰矩阵 |
 | **Spider 核心** | **`easy11.25.png` 官方直连 CDN（0 外挂 Jar）** | 腾讯云 EdgeOne 官方极速直连 CDN（附 `;md5;` 指纹），本地与仓库高可用双轨备份，免疫反代屏蔽 |
+| **外部脚本库** | **`JS / PY / JSON` 规则全量自托管镜像** | 同步自托管镜像全部官方脚本与课堂规则，彻底消除外部域名单点失效 |
 | **电视直播** | **14 路直播列表** / [`live.txt`](./live.txt) 2,104 流 | 含 **9 路实测可用公网直播** + 5 路本地飞羊（`127.0.0.1:35457`），带 EPG/台标 |
 | **视频解析** | **15 路** | 首位通用 `Web` 聚合 + **14 路测速优选解析**（已自动过滤失效 `type: 1` 接口） |
 | **观影配套** | **弹幕 + 去广告 + DoH** | 原生 `9978` 实时弹幕、**6 条**去广告切片规则、**7 组**抗污染 DoH |
@@ -100,12 +104,13 @@ https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 ```mermaid
 flowchart LR
-    A["全网抓取与本地基线<br/>200+ 单仓 / 2,000+ 候选站"] --> B["多维探活与自愈<br/>死链清零 · 镜像测速 · 直播/解析验证"]
+    A["全网抓取与本地基线<br/>200+ 单仓 / 2,000+ 候选站"] --> B["多维探活与自愈<br/>死链清零 · 镜像测速 · 脚本自托管"]
     B --> C["10 项 Gatekeeper 硬门禁<br/>字节码匹配 · 哈希一致 · 零冲突"]
     C --> D["同步交付本仓库<br/>1.json · live.txt · tv8.json · 自用仓库.txt"]
 ```
 
-### 🔒 Gatekeeper 10 项自动化门禁铁律
+<details>
+<summary>🔒 点击展开：Gatekeeper 10 项自动化门禁铁律明细</summary>
 
 | 规则 | 检查项 | 守护内容 |
 | :---: | :--- | :--- |
@@ -115,16 +120,18 @@ flowchart LR
 | **Rule 4** | **免登秒播置顶** | 前 20 席位严禁被需扫码网盘源挤占，保证老人小孩开箱即点即播 |
 | **Rule 5** | **4K 网盘防越界** | 主流网盘源完备，`ext.site` 严禁空数组与已知死链域名 |
 | **Rule 6** | **纯单Spider与聚搜率** | 校验全仓 100% 纯单 Spider 原生架构（0 外挂 Jar），强制要求全站 `>= 100` 站同时开启搜索/快搜/换源 |
-| **Rule 7** | **DEX 字节码零缺失** | 逐一核对站点 `api` 与本地 `easy11.20.png` JAR 内的真实类名，杜绝 `ClassNotFound` |
+| **Rule 7** | **DEX 字节码零缺失** | 逐一核对站点 `api` 与本地活跃主 Spider JAR 内的真实类名，杜绝 `ClassNotFound` |
 | **Rule 8** | **Spider 指纹校验** | 强制检验 `spider` 的 `;md5;` 与本地物理 JAR 文件严格一致 |
 | **Rule 9** | **纯净链路与编码** | 严禁多层代理嵌套、XBPQ 冗余外挂 Jar、嗷呜源零残留与未 Punycode 转义的非 ASCII URL |
 | **Rule 10** | **防闪退根结构与配套** | 严格 12 个标准根字段（剥离 `hosts`/`headers`），核验弹幕、规则、解析、DoH 与 Logo |
+
+</details>
 
 ---
 
 ## 📥 客户端下载
 
-> 安装包均指向开源原版或社区搬运公开仓库，按设备架构（电视多为 32 位 `armeabi_v7a`、新盒子/手机多为 64 位 `arm64_v8a`）按需下载即可。
+> **选型一句话指南**：安卓电视/手机主力首选 **FongMi 影视**（流畅度与杜比支持最佳）；喜欢随时切换多条路线选 **影视仓 + `tv8.json`**；老旧低内存电视盒选 **TVBox Takagen99**。（电视多为 32 位 `armeabi_v7a`，新盒子/手机多为 64 位 `arm64_v8a`）
 
 ### 📺 电视 TV / 盒子端
 
@@ -147,7 +154,7 @@ flowchart LR
 ## 📖 三步导入
 
 1. **打开设置**：打开电视端 **FongMi / TVBox / 影视仓**，进入 **「设置」➔「配置地址」**；
-2. **手机扫码推送**（免遥控器打字）：保证手机与电视同一 Wi-Fi，用手机微信/浏览器扫描屏幕二维码（或访问页面显示的 `http://192.168.x.x:9978`）；
+2. **手机扫码推送**（告别遥控器打字）：保证手机与电视处于同一 Wi-Fi，用手机浏览器或微信扫描屏幕二维码（或访问页面显示的 `http://192.168.x.x:9978`）；
 3. **填入接口并确定**：粘贴上方主线地址并点击确定：
    ```text
    https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json
@@ -168,7 +175,10 @@ flowchart LR
 * 也可切换为备用加速线路（ghfast 节点）：`https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json`。
 
 **Q4：找不到极冷门老剧怎么办？**
-* 默认全站已有 **138** 个开启聚搜的站点；如前排未命中，可继续向下滚动或直接启用排在后面的 **CMS 采集专区（暴风 / 红牛 / 量子 / 非凡等）**，或切至多仓列表 [`自用仓库.txt`](./自用仓库.txt) 中的其他线路补充。
+* 默认全站已有 **148** 个开启聚搜的站点；如前排未命中，可继续向下滚动或直接启用排在后面的 **CMS 采集专区（暴风 / 红牛 / 量子 / 非凡等）**，或切至多仓列表 [`自用仓库.txt`](./自用仓库.txt) 中的其他线路补充。
+
+**Q5：某个站源失效或有想加的片源怎么反馈？**
+* 欢迎直接前往 [**Issues 问题反馈区**](https://github.com/niubihu1/tvbox/issues) 留言，我们会结合自动化探针及时排查修复。
 
 ---
 
@@ -179,6 +189,8 @@ flowchart LR
 
 <div align="center">
 
-🌟 如果觉得好用，欢迎点亮右上角 **Star** 支持！
+### ⭐ 如果这个项目帮到了你，欢迎点亮右上角 **Star** 收藏防走丢！
+
+[![Star History Chart](https://api.star-history.com/svg?repos=niubihu1/tvbox&type=Date)](https://star-history.com/#niubihu1/tvbox&Date)
 
 </div>

@@ -3,7 +3,15 @@
 """FreeOK (freeok.in) dr_py source.
 
 站点: https://www.freeok.in (MacCMS V10 + MX 主题)
-
+链路:
+  - 分类/列表: /vodshow/id/{slug}.html, 分页 /vodshow/id/{slug}/page/N.html
+    (需要先过 robot.php 人机验证)
+  - 详情:      /vod/{id}.html (含多线路播放列表)
+  - 播放页:    /play/{id}-{sid}-{nid}.html -> 取 player_aaaa.url
+  - 真实流:    POST /jx/api.php {vid: url} -> data.url -> 按 urlmode 解密:
+       urlmode=1: Decode1 -> MP4 直链 (md5('test') + base64 + 置换表 sign)
+       urlmode=2: Decode2 -> m3u8     (atob + 每3字符取第2个 + (idx+59)%62)
+  - 搜索:      /vodsearch.html?wd={kw} (需过 robot)
 """
 
 import base64

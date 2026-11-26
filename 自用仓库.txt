@@ -1,92 +1,92 @@
-// 此多仓接口列表由 GitHub Actions 自动化保活巡检引擎生成 [云端保活版]
+// 此多仓接口列表由 auto_engine 本地家庭宽带巡检引擎实时测速生成 [家庭测速版]
 {
     "urls": [
         {
-            "name": "🐯牛虎 ┃ 豆瓣热播 [在线]",
+            "name": "🐯牛虎 ┃ 豆瓣热播 [450ms]",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 官方主力 [在线]",
+            "name": "🐼肥猫线路 ┃ 官方主力 [44ms]",
             "url": "https://d.kstore.dev/download/6296/fm.gif"
         },
         {
-            "name": "🍚饭太硬线 ┃ 旗舰片单 [在线]",
+            "name": "🍚饭太硬线 ┃ 旗舰片单 [29ms]",
             "url": "http://www.xn--sss604efuw.cc/tv"
         },
         {
-            "name": "🐟摸鱼接口 ┃ 4K极速 [在线]",
+            "name": "🐟摸鱼接口 ┃ 4K极速 [924ms]",
             "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top"
         },
         {
-            "name": "📺EasyTV ┃ 熵侦精选 [在线]",
+            "name": "📺EasyTV ┃ 熵侦精选 [284ms]",
             "url": "https://15318.kstore.space/easytv.jpg"
         },
         {
-            "name": "🍃南风接口 ┃ 官方精选 [在线]",
+            "name": "🍃南风接口 ┃ 官方精选 [953ms]",
             "url": "https://gh-proxy.org/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json"
         },
         {
-            "name": "🍵荷城茶秀 ┃ 道长经典 [在线]",
+            "name": "🍵荷城茶秀 ┃ 道长经典 [119ms]",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/HeChengChaXiu/tvbox/main/hccx.json"
         },
         {
-            "name": "⚡俊宇线路 ┃ 蓝光秒播 [在线]",
+            "name": "⚡俊宇线路 ┃ 蓝光秒播 [705ms]",
             "url": "http://home.jundie.top:81/top98.json"
         },
         {
-            "name": "🚀王二小线 ┃ 综合推荐 [在线]",
+            "name": "🚀王二小线 ┃ 综合推荐 [410ms]",
             "url": "http://new.xn--4kq62z5rby2qupq9ub.top/"
         },
         {
-            "name": "🌟潇洒线路 ┃ 优质备用 [在线]",
+            "name": "🌟潇洒线路 ┃ 优质备用 [112ms]",
             "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json"
         },
         {
-            "name": "👿心魔线路 ┃ 极速专线 [在线]",
+            "name": "👿心魔线路 ┃ 极速专线 [57ms]",
             "url": "https://gh-proxy.org/raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
         },
         {
-            "name": "📦小盒子线 ┃ 精品多线 [在线]",
+            "name": "📦小盒子线 ┃ 精品多线 [11ms]",
             "url": "http://xhztv.top/dc/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api.json"
         },
         {
-            "name": "🐼肥猫线路 ┃ 备用镜像 [在线]",
+            "name": "🐼肥猫线路 ┃ 备用镜像 [152ms]",
             "url": "https://w.junce.dpdns.org/fm.gif"
         },
         {
-            "name": "🍚饭太硬线 ┃ 备用镜像 [在线]",
+            "name": "🍚饭太硬线 ┃ 备用镜像 [644ms]",
             "url": "http://www.xn--sss604efuw.net/tv"
         },
         {
-            "name": "🚀周J线路 ┃ 备用维护 [在线]",
+            "name": "🚀周J线路 ┃ 备用维护 [338ms]",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/zhoujck/config/main/box"
         },
         {
-            "name": "☁️高天流云 ┃ 极速专线 [在线]",
+            "name": "☁️高天流云 ┃ 极速专线 [70ms]",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
         },
         {
-            "name": "👑刘备线路 ┃ 经典整合 [在线]",
+            "name": "👑刘备线路 ┃ 经典整合 [7ms]",
             "url": "http://raw.liucn.cc/box/m.json"
         },
         {
-            "name": "🐴小马线路 ┃ 综合备用 [在线]",
+            "name": "🐴小马线路 ┃ 综合备用 [680ms]",
             "url": "http://szyyds.cn/tv/x.json"
         },
         {
-            "name": "📛挺好线路 ┃ 优质备用 [在线]",
+            "name": "📛挺好线路 ┃ 优质备用 [409ms]",
             "url": "https://ztha.top/TVBox/thdjk.json"
         },
         {
-            "name": "🐺嗷呜线路 ┃ 原画秒播 [在线]",
+            "name": "🐺嗷呜线路 ┃ 原画秒播 [292ms]",
             "url": "https://9763.kstore.vip/aowu.json"
         },
         {
-            "name": "🌸香雅情线 ┃ 经典XYQ [在线]",
+            "name": "🌸香雅情线 ┃ 经典XYQ [165ms]",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
         },
         {
-            "name": "🌱道长线路 ┃ DRPY旗舰 [在线]",
+            "name": "🌱道长线路 ┃ DRPY旗舰 [112ms]",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
         }
     ]
