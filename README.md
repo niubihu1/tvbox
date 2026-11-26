@@ -36,11 +36,20 @@ https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.jso
 
 ### 🧩 扩展接口（按需选用）
 
-| 用途 | 适用播放器 / 场景 | 复制直链（`gh-proxy` 国内高速节点） |
-| :--- | :--- | :--- |
-| **📦 精选多仓聚合**（[`tv8.json`](./tv8.json) · 16 线） | 影视仓 TV / 月光宝盒 / FongMi 多仓 | `https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json` |
-| **🪜 主流大仓天梯**（[`自用仓库.txt`](./自用仓库.txt) · 22 线） | 切换肥猫、饭太硬、摸鱼儿等一线大仓 | `https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt` |
-| **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,104 流） | TVBox 直播 / TiviMate / APTV / PotPlayer | `https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt` |
+* **📦 精选多仓聚合**（[`tv8.json`](./tv8.json) · 16 线 · 适用 影视仓 TV / 月光宝盒 / FongMi 多仓）
+  ```text
+  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json
+  ```
+
+* **🪜 主流大仓天梯**（[`自用仓库.txt`](./自用仓库.txt) · 22 线 · 一键切换肥猫、饭太硬、摸鱼儿等一线大仓）
+  ```text
+  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/自用仓库.txt
+  ```
+
+* **📺 独立电视直播**（[`live.txt`](./live.txt) · 2,104 条直播流 · 适用 TVBox / TiviMate / APTV / PotPlayer）
+  ```text
+  https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt
+  ```
 
 <details>
 <summary>🌐 备用加速节点与 GitHub 原始直连（主线超时或海外网络请点此展开）</summary>
